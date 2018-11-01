@@ -5,6 +5,7 @@ Description coming soon...
 
 ## Contents 
 
+* [analysis](analysis) - main analyses and project code in Jupyter Notebooks
 * [images](images) — project images for/from notebooks and markdown
 
 <br>
