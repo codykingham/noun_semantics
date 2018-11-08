@@ -86,8 +86,8 @@ def deliver_params(target_nouns, tf=None):
         /-/
             -noun_heads> target
 
-    # target=4
-    # bases=(2, 3)
+    % target=4
+    % bases=(2, 3)
     '''
 
     def token_cc_rela(bases, target):
@@ -120,8 +120,8 @@ def deliver_params(target_nouns, tf=None):
             -heads> word
             -prep_obj> target
 
-    # target=5
-    # bases=(2,3,4)
+    % target=5
+    % bases=(2,3,4)
     '''
 
     def token_cc_rela_PP(bases, target):
@@ -149,8 +149,8 @@ def deliver_params(target_nouns, tf=None):
         phrase function=PreC typ#PP
             -heads> word pdp=subs|nmpr|verb|adjv|advb lex#KL/ ls#card|ordn
 
-    # target=2
-    # basis=(4,)
+    % target=2
+    % bases=(4,)
     '''
 
     def token_subj_preC(bases, target):
@@ -178,8 +178,8 @@ def deliver_params(target_nouns, tf=None):
             -heads> word
             -prep_obj> word pdp=subs|nmpr|verb|adjv|advb lex#KL/ ls#card|ordn
 
-    # target=2
-    # basis=(4, 5)
+    % target=2
+    % bases=(4, 5)
     '''
 
     def token_subj_preC_PP(bases, target):
@@ -207,8 +207,8 @@ def deliver_params(target_nouns, tf=None):
         phrase function=PreC
             -heads> target
 
-    # target=4
-    # basis=(2,)
+    % target=4
+    % bases=(2,)
     '''
 
     def token_PreC_subj(bases, target):
@@ -236,8 +236,8 @@ def deliver_params(target_nouns, tf=None):
         phrase function=PreC
             -heads> target
 
-    # target=5
-    # basis=(2,3)
+    % target=5
+    % bases=(2,3)
     '''
 
     def token_PreC_subj_PP(bases, target):
@@ -271,8 +271,8 @@ def deliver_params(target_nouns, tf=None):
     p1 -noun_heads> w1
     p1 -noun_heads> w2
 
-    # target=3
-    # basis=(5,)
+    % target=3
+    % bases=(5,)
     '''
 
     def token_sp_parallel(bases, target):
@@ -304,8 +304,8 @@ def deliver_params(target_nouns, tf=None):
     p1 -noun_heads> w1
     p1 -noun_heads> w2
 
-    # target=5
-    # basis=(3,)
+    % target=5
+    % bases=(3,)
     '''
 
     def token_sp_parallel_rela(bases, target):
@@ -338,8 +338,8 @@ def deliver_params(target_nouns, tf=None):
 
     p1 -noun_heads> w1
 
-    # target=3
-    # bases=(5,)
+    % target=3
+    % bases=(5,)
     '''
 
     def token_sp_adjective(bases, target):
@@ -369,8 +369,8 @@ def deliver_params(target_nouns, tf=None):
 
     p1 -noun_heads> w1
 
-    # target=3
-    # bases=(5,)
+    % target=3
+    % bases=(5,)
     '''
 
     def token_sp_construct(bases, target):
@@ -400,8 +400,8 @@ def deliver_params(target_nouns, tf=None):
 
     p1 -noun_heads> w1
 
-    # target=5
-    # bases=(3,)
+    % target=5
+    % bases=(3,)
     '''
 
     def token_sp_construct_rela(bases, target):
@@ -431,8 +431,8 @@ def deliver_params(target_nouns, tf=None):
         <mother- phrase_atom rela=Para
             -noun_heads> word pdp=subs lex#KL/ ls#card|ordn
 
-    # target=2
-    # bases=(4,)
+    % target=2
+    % bases=(4,)
     '''
 
     def token_pa_parallel(bases, target):
@@ -459,8 +459,8 @@ def deliver_params(target_nouns, tf=None):
         <mother- phrase_atom rela=Para
             -noun_heads> target
 
-    # target=4
-    # bases=(2,)
+    % target=4
+    % bases=(2,)
     '''
 
     def token_pa_parallel_rela(bases, target):
@@ -487,8 +487,8 @@ def deliver_params(target_nouns, tf=None):
         <mother- phrase_atom rela=Appo
             -noun_heads> word ls#card|ordn lex#KL/
 
-    # target=2
-    # bases=(4,)
+    % target=2
+    % bases=(4,)
     '''
 
     def token_pa_apposition(bases, target):
@@ -515,8 +515,8 @@ def deliver_params(target_nouns, tf=None):
         <mother- phrase_atom rela=Appo
             -noun_heads> target
 
-    # target=4
-    # bases=(2,)
+    % target=4
+    % bases=(2,)
     '''
 
     def token_pa_apposition_rela(bases, token):
