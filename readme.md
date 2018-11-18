@@ -1,7 +1,6 @@
 # Modeling Noun Semantics with Vector Spaces and the ETCBC Hebrew Database
 
-Description coming soon...
-
+This repository contains project data and analysis for my SBL presentation on noun semantics in the Hebrew Bible. I rate the similarity of the top 200 nouns in the Hebrew Bible pairwise using their syntactic contexts. I then plot the resulting data with principle component analysis and with Gephi. The result is a high quality semantic vector space that can be built upon to expand the coverage of analysis. A draft article from this project is being submitted for review to [*Hiphil*](https://www.hiphil.org/index.php/hiphil).
 
 ## Contents 
 
