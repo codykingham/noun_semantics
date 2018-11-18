@@ -62,7 +62,7 @@ def deliver_params(target_nouns, tf=None):
         '''
         verb_stem = F.vs.v(verb_node)
         #verb_lex = F.lex_utf8.v(verb_node)
-        verb_lex = F.lex.v(verb_node)
+        verb_lex = token_lex(verb_node)
         return f'{verb_stem}.{verb_lex}'
 
 
