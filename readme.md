@@ -16,6 +16,6 @@ All of the analysis in this repository takes place in the [noun semantics jupyer
 
 <hr>
 
-[![DOI](https://zenodo.org/badge/155222317.svg)](https://zenodo.org/badge/latestdoi/155222317)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1493906.svg)](https://doi.org/10.5281/zenodo.1493906)
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
