@@ -128,7 +128,7 @@ def deliver_params(target_nouns, tf=None):
         # funct.prep-> st.verb.lex
         verb, prep = token_verb(bases[0]), F.lex.v(bases[2])
         target_funct = F.function.v(bases[1])    
-        return f'{target_funct}.{prep}-> {verb}'
+        return f'{target_funct}.{prep}.-> {verb}'
 
     parameters.append({'template': dedent(clause_function_PP), 
                        'target': 5, 
@@ -185,8 +185,7 @@ def deliver_params(target_nouns, tf=None):
     def token_subj_preC_PP(bases, target):
         # PreC.prep.lex-> Subj.
         prep, complement = token_lex(bases[0]), token_lex(bases[1])
-        compliment = token_lex(bases[0])
-        return f'PreC.{compliment}-> Subj.'
+        return f'PreC.{prep}.{complement}-> Subj.'
 
     parameters.append({'template': dedent(ccr_subj_preC_PP), 
                        'target': 2, 
@@ -202,9 +201,9 @@ def deliver_params(target_nouns, tf=None):
     ccr_preC_subj = '''
 
     clause
-        phrase function=Subj typ#PP
+        phrase function=Subj
             -heads> word pdp=subs|nmpr|verb|adjv|advb lex#KL/ ls#card|ordn
-        phrase function=PreC
+        phrase function=PreC typ#PP
             -heads> target
 
     % target=4
@@ -226,32 +225,32 @@ def deliver_params(target_nouns, tf=None):
                      })
 
     
-    # target is complement to a prepositional subject lexeme in predicate-complement relation
+    # target is a prepositional complement to a subject lexeme in predicate-complement relation
     ccr_preC_subj_PP = '''
 
     clause
-        phrase function=Subj typ=PP
+        phrase function=Subj
             -heads> word
-            -prep_obj> word pdp=subs|nmpr|verb|adjv|advb lex#KL/ ls#card|ordn
-        phrase function=PreC
-            -heads> target
+        phrase function=PreC typ=PP
+            -heads> word
+            -prep_obj> target
 
     % target=5
-    % bases=(2,3)
+    % bases=(2,4)
     '''
 
     def token_PreC_subj_PP(bases, target):
-        # PreC.-> Subj.prep.lex
-        prep, subj = token_lex(bases[0]), token_lex(bases[1])
-        return f'PreC.-> Subj.{prep}.{subj}'
+        # PreC.prep.-> Subj.lex
+        subj, prep = token_lex(bases[0]), token_lex(bases[1])
+        return f'PreC.{prep}.-> Subj.{subj}'
 
     parameters.append({'template': dedent(ccr_preC_subj_PP), 
                        'target': 5, 
-                       'bases': (2,3), 
+                       'bases': (2,4), 
                        'target_tokenizer': token_lex, 
                        'basis_tokenizer': token_PreC_subj_PP,
                        'sets': sets,
-                       'name': 'PreC.-> Subj.prep.lex'
+                       'name': 'PreC.prep.-> Subj.lex'
                      })
 
     # <><> subphrase relation searches <><>
