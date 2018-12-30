@@ -46,23 +46,32 @@ def deliver_params(target_nouns, tf=None):
 
     # <><> universal tokenizers (i.e. used throughout) <><>
 
+    def disambigUTF8(wordnode):
+        '''
+        Adds modified ETCBC disambiguators 
+        to UTF8 lexical forms.
+        '''
+        letters = [letter for letter in F.lex.v(wordnode)]
+        gloss_number = letters.count('=') + 1 if {'[', '/'}&set(letters) else '' # count = (etcbc disambiguator)
+        wordtype = 'n' if '/' in letters else 'v' if '[' in letters else ''
+        utf8 = F.lex_utf8.v(wordnode)
+        disambigs = [dis for dis in [utf8, wordtype+str(gloss_number)] if dis] # remove null strings (e.g. in cases of preps)
+        return '.'.join(disambigs)
+    
     def token_lex(target):
         '''
         Builds simple lexeme token 
         with disambiguation if necessary.
         '''
-        lex_trans = F.lex.v(target)
-        #disambig = re.sub('[A-Z><]', '', lex_trans)
-        #utf8 = F.lex_utf8.v(target)
-        return lex_trans      
+        lexeme = disambigUTF8(target)
+        return lexeme
 
     def token_verb(verb_node):
         '''
         Constructs a stem+lemma verb token.
         '''
         verb_stem = F.vs.v(verb_node)
-        #verb_lex = F.lex_utf8.v(verb_node)
-        verb_lex = token_lex(verb_node)
+        verb_lex = disambigUTF8(verb_node)
         return f'{verb_stem}.{verb_lex}'
 
 
@@ -91,10 +100,10 @@ def deliver_params(target_nouns, tf=None):
     '''
 
     def token_cc_rela(bases, target):
-        # funct.-> st.verb.lex
+        # T.function→ st.verb.lex
         target_funct = F.function.v(bases[1])
         verb = token_verb(bases[0])
-        return f'{target_funct}.-> {verb}'
+        return f'T.{target_funct}→ {verb}'
 
     parameters.append({'template': dedent(clause_function), 
                        'target': 4, 
@@ -102,7 +111,7 @@ def deliver_params(target_nouns, tf=None):
                        'target_tokenizer': token_lex, 
                        'basis_tokenizer': token_cc_rela,
                        'sets': sets,
-                       'name': 'funct.-> st.verb.lex'
+                       'name': 'T.function→ st.verb.lex'
                       })
 
 
@@ -125,10 +134,10 @@ def deliver_params(target_nouns, tf=None):
     '''
 
     def token_cc_rela_PP(bases, target):
-        # funct.prep-> st.verb.lex
-        verb, prep = token_verb(bases[0]), F.lex.v(bases[2])
+        # T.prep.funct→ st.verb.lex
+        verb, prep = token_verb(bases[0]), token_lex(bases[2])
         target_funct = F.function.v(bases[1])    
-        return f'{target_funct}.{prep}.-> {verb}'
+        return f'T.{prep}.{target_funct}→ {verb}'
 
     parameters.append({'template': dedent(clause_function_PP), 
                        'target': 5, 
@@ -136,7 +145,7 @@ def deliver_params(target_nouns, tf=None):
                        'target_tokenizer': token_lex, 
                        'basis_tokenizer': token_cc_rela_PP,
                        'sets': sets,
-                       'name': 'funct.prep-> st.verb.lex'
+                       'name': 'T.prep.funct→ st.verb.lex'
                       })
     
     
@@ -154,9 +163,9 @@ def deliver_params(target_nouns, tf=None):
     '''
 
     def token_subj_preC(bases, target):
-        # PreC.lex-> Subj.
+        # lex.PreC→ T.Subj
         compliment = token_lex(bases[0])
-        return f'PreC.{compliment}-> Subj.'
+        return f'{compliment}.PreC→ T.Subj'
 
     parameters.append({'template': dedent(ccr_subj_preC), 
                        'target': 2, 
@@ -164,7 +173,7 @@ def deliver_params(target_nouns, tf=None):
                        'target_tokenizer': token_lex, 
                        'basis_tokenizer': token_subj_preC,
                        'sets': sets,
-                       'name': 'PreC.lex-> Subj.'
+                       'name': 'lex.PreC→ T.Subj'
                       })
     
     
@@ -183,9 +192,9 @@ def deliver_params(target_nouns, tf=None):
     '''
 
     def token_subj_preC_PP(bases, target):
-        # PreC.prep.lex-> Subj.
+        # lex.prep.PreC→ T.Subj
         prep, complement = token_lex(bases[0]), token_lex(bases[1])
-        return f'PreC.{prep}.{complement}-> Subj.'
+        return f'{complement}.{prep}.PreC→ T.Subj'
 
     parameters.append({'template': dedent(ccr_subj_preC_PP), 
                        'target': 2, 
@@ -193,7 +202,7 @@ def deliver_params(target_nouns, tf=None):
                        'target_tokenizer': token_lex, 
                        'basis_tokenizer': token_subj_preC_PP,
                        'sets': sets,
-                       'name': 'PreC.prep.lex-> Subj.'
+                       'name': 'lex.prep.PreC→ T.Subj'
                       })
 
     
@@ -211,9 +220,9 @@ def deliver_params(target_nouns, tf=None):
     '''
 
     def token_PreC_subj(bases, target):
-        # PreC.-> Subj.lex
+        # T.PreC→ Subj.lex
         subj = token_lex(bases[0])
-        return f'PreC.-> Subj.{subj}'
+        return f'T.PreC→ {subj}.Subj'
 
     parameters.append({'template': dedent(ccr_preC_subj), 
                        'target': 4, 
@@ -221,7 +230,7 @@ def deliver_params(target_nouns, tf=None):
                        'target_tokenizer': token_lex, 
                        'basis_tokenizer': token_PreC_subj,
                        'sets': sets,
-                       'name': 'PreC.-> Subj.lex'
+                       'name': 'T.PreC→ lex.Subj'
                      })
 
     
@@ -240,9 +249,9 @@ def deliver_params(target_nouns, tf=None):
     '''
 
     def token_PreC_subj_PP(bases, target):
-        # PreC.prep.-> Subj.lex
+        # T.prep.PreC→ lex.Subj
         subj, prep = token_lex(bases[0]), token_lex(bases[1])
-        return f'PreC.{prep}.-> Subj.{subj}'
+        return f'T.{prep}.PreC→ {subj}.Subj'
 
     parameters.append({'template': dedent(ccr_preC_subj_PP), 
                        'target': 5, 
@@ -250,7 +259,7 @@ def deliver_params(target_nouns, tf=None):
                        'target_tokenizer': token_lex, 
                        'basis_tokenizer': token_PreC_subj_PP,
                        'sets': sets,
-                       'name': 'PreC.prep.-> Subj.lex'
+                       'name': 'T.prep.PreC→ lex.Subj'
                      })
 
     # <><> subphrase relation searches <><>
@@ -275,9 +284,9 @@ def deliver_params(target_nouns, tf=None):
     '''
 
     def token_sp_parallel(bases, target):
-        # par.lex-> .
+        # lex.coord→ T
         par = token_lex(bases[0])
-        return f'par.{par}-> .'
+        return f'{par}.coord→ T'
 
     parameters.append({'template': dedent(sp_parallel), 
                        'target': 3, 
@@ -285,7 +294,7 @@ def deliver_params(target_nouns, tf=None):
                        'target_tokenizer': token_lex, 
                        'basis_tokenizer': token_sp_parallel,
                        'sets': sets,
-                       'name': 'par.lex-> .'
+                       'name': 'lex.coord→ T'
                       })
 
 
@@ -308,9 +317,9 @@ def deliver_params(target_nouns, tf=None):
     '''
 
     def token_sp_parallel_rela(bases, target):
-        # par.-> lex
+        # T.coord→ lex
         par = token_lex(bases[0])
-        return f'par.-> {par}'
+        return f'T.coord→ {par}'
 
     parameters.append({'template': dedent(sp_parallel_rela), 
                        'target': 5, 
@@ -318,7 +327,7 @@ def deliver_params(target_nouns, tf=None):
                        'target_tokenizer': token_lex, 
                        'basis_tokenizer': token_sp_parallel_rela,
                        'sets': sets,
-                       'name': 'par.-> lex'
+                       'name': 'T.coord→ lex'
                       })
 
 
@@ -342,9 +351,9 @@ def deliver_params(target_nouns, tf=None):
     '''
 
     def token_sp_adjective(bases, target):
-        # atr.lex -> .
+        # lex.atr→ T
         adjv = token_lex(bases[0])
-        return f'atr.{adjv}-> .'
+        return f'{adjv}.atr→ T'
 
     parameters.append({'template': dedent(sp_adjective), 
                        'target': 3, 
@@ -352,7 +361,7 @@ def deliver_params(target_nouns, tf=None):
                        'target_tokenizer': token_lex, 
                        'basis_tokenizer': token_sp_adjective,
                        'sets': sets,
-                       'name': 'atr.lex -> .'
+                       'name': 'lex.atr→ T'
                       })
 
 
@@ -373,9 +382,9 @@ def deliver_params(target_nouns, tf=None):
     '''
 
     def token_sp_construct(bases, target):
-        # rec.lex -> .
+        # lex.const→ T
         constr = token_lex(bases[0])
-        return f'rec.{constr}-> .'
+        return f'{constr}.const→ T'
 
     parameters.append({'template': dedent(sp_construct), 
                        'target': 3, 
@@ -383,7 +392,7 @@ def deliver_params(target_nouns, tf=None):
                        'target_tokenizer': token_lex, 
                        'basis_tokenizer': token_sp_construct,
                        'sets': sets,
-                       'name': 'rec.lex -> .'
+                       'name': 'lex.const→ T'
                       })
 
 
@@ -404,9 +413,9 @@ def deliver_params(target_nouns, tf=None):
     '''
 
     def token_sp_construct_rela(bases, target):
-        # rec.-> lex
+        # T.const→ lex
         absolute = token_lex(bases[0])
-        return f'rec.-> {absolute}'
+        return f'T.const→ {absolute}'
 
     parameters.append({'template': dedent(sp_construct_rela), 
                        'target': 5, 
@@ -414,7 +423,7 @@ def deliver_params(target_nouns, tf=None):
                        'target_tokenizer': token_lex, 
                        'basis_tokenizer': token_sp_construct_rela,
                        'sets': sets,
-                       'name': 'rec.-> lex'
+                       'name': 'T.const→ lex'
                       })
 
 
@@ -435,9 +444,9 @@ def deliver_params(target_nouns, tf=None):
     '''
 
     def token_pa_parallel(bases, target):
-        # Para.lex-> .
+        # lex.coord→ T
         para = token_lex(bases[0])
-        return f'Para.{para}-> .'
+        return f'{para}.coord→ T'
 
     parameters.append({'template': dedent(pa_parallel), 
                        'target': 2, 
@@ -445,7 +454,7 @@ def deliver_params(target_nouns, tf=None):
                        'target_tokenizer': token_lex, 
                        'basis_tokenizer': token_pa_parallel,
                        'sets': sets,
-                       'name': 'Para.lex-> .'
+                       'name': 'lex.coord→ T (phrase atoms)'
                       })
 
 
@@ -463,9 +472,9 @@ def deliver_params(target_nouns, tf=None):
     '''
 
     def token_pa_parallel_rela(bases, target):
-        # Para.-> lex
+        # T.coord→ lex
         paralleled = token_lex(bases[0])
-        return f'Para.-> {paralleled}'
+        return f'T.coord→ {paralleled}'
 
     parameters.append({'template': dedent(pa_parallel_rela), 
                        'target': 4, 
@@ -473,7 +482,7 @@ def deliver_params(target_nouns, tf=None):
                        'target_tokenizer': token_lex, 
                        'basis_tokenizer': token_pa_parallel_rela,
                        'sets': sets,
-                       'name': 'Para.-> lex'
+                       'name': 'T.coord→ lex (phrase atoms)'
                       })
 
 
@@ -491,9 +500,9 @@ def deliver_params(target_nouns, tf=None):
     '''
 
     def token_pa_apposition(bases, target):
-        # Appo.lex-> .
+        # lex.appo→ T
         appo = token_lex(bases[0])
-        return f'Appo.{appo}-> .'
+        return f'{appo}.appo→ T'
 
     parameters.append({'template': dedent(pa_apposition), 
                        'target': 2, 
@@ -501,7 +510,7 @@ def deliver_params(target_nouns, tf=None):
                        'target_tokenizer': token_lex, 
                        'basis_tokenizer': token_pa_apposition,
                        'sets': sets,
-                       'name': 'Appo.lex-> .'
+                       'name': 'lex.appo→ T'
                       })
 
 
@@ -519,9 +528,9 @@ def deliver_params(target_nouns, tf=None):
     '''
 
     def token_pa_apposition_rela(bases, token):
-        # Appo.-> lex
+        # T.appo→ lex
         appo_rela = token_lex(bases[0])
-        return f'Appo.-> {appo_rela}'
+        return f'T.appo→ {appo_rela}'
 
     parameters.append({'template': dedent(pa_apposition_rela), 
                        'target': 4, 
@@ -529,7 +538,7 @@ def deliver_params(target_nouns, tf=None):
                        'target_tokenizer': token_lex, 
                        'basis_tokenizer': token_pa_apposition_rela,
                        'sets': sets,
-                       'name': 'Appo.-> lex'
+                       'name': 'T.appo→ lex'
                       })
     
     return parameters
