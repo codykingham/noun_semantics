@@ -86,14 +86,14 @@ def deliver_params(target_nouns, tf=None):
         phrase function=PreC
     /-/
         phrase function=Pred|PreO|PreS
-            -heads> word pdp=verb lex#HJH[
+            <head- word pdp=verb lex#HJH[
         phrase
         /with/
         typ#PP
         /or/
         typ=PP function=Objc
         /-/
-            -noun_heads> target
+            <nhead- target
 
     % target=4
     % bases=(2, 3)
@@ -123,11 +123,11 @@ def deliver_params(target_nouns, tf=None):
         phrase function=PreC
     /-/
         phrase function=Pred|PreO|PreS
-            -heads> word pdp=verb lex#HJH[
+            <head- word pdp=verb lex#HJH[
 
         phrase typ=PP function#Objc
-            -heads> word
-            -prep_obj> target
+            <head- word
+            <obj_prep- target
 
     % target=5
     % bases=(2,3,4)
@@ -154,9 +154,9 @@ def deliver_params(target_nouns, tf=None):
 
     clause
         phrase function=Subj
-            -heads> target
+            <head- target
         phrase function=PreC typ#PP
-            -heads> word pdp=subs|nmpr|verb|adjv|advb lex#KL/ ls#card|ordn
+            <head- word pdp=subs|nmpr|verb|adjv|advb sem_set#quant
 
     % target=2
     % bases=(4,)
@@ -182,10 +182,10 @@ def deliver_params(target_nouns, tf=None):
 
     clause
         phrase function=Subj
-            -heads> target
+            <head- target
         phrase function=PreC typ=PP
-            -heads> word
-            -prep_obj> word pdp=subs|nmpr|verb|adjv|advb lex#KL/ ls#card|ordn
+            <head- word
+            <obj_prep- word pdp=subs|nmpr|verb|adjv|advb sem_set#quant
 
     % target=2
     % bases=(4, 5)
@@ -211,9 +211,9 @@ def deliver_params(target_nouns, tf=None):
 
     clause
         phrase function=Subj
-            -heads> word pdp=subs|nmpr|verb|adjv|advb lex#KL/ ls#card|ordn
+            <head- word pdp=subs|nmpr|verb|adjv|advb sem_set#quant
         phrase function=PreC typ#PP
-            -heads> target
+            <head- target
 
     % target=4
     % bases=(2,)
@@ -239,10 +239,10 @@ def deliver_params(target_nouns, tf=None):
 
     clause
         phrase function=Subj
-            -heads> word
+            <head- word
         phrase function=PreC typ=PP
-            -heads> word
-            -prep_obj> target
+            <head- word
+            <obj_prep- target
 
     % target=5
     % bases=(2,4)
@@ -273,11 +273,11 @@ def deliver_params(target_nouns, tf=None):
             subphrase
                 w1:target
             <mother- subphrase rela=par
-                w2:word lex#KL/ ls#card|ordn
+                w2:word sem_set#quant
 
 
-    p1 -noun_heads> w1
-    p1 -noun_heads> w2
+    p1 <nhead- w1
+    p1 <nhead- w2
 
     % target=3
     % bases=(5,)
@@ -304,13 +304,13 @@ def deliver_params(target_nouns, tf=None):
     clause
         p1:phrase
             subphrase
-                w1:word lex#KL/ ls#card|ordn
+                w1:word sem_set#quant
             <mother- subphrase rela=par
                 w2:target
 
 
-    p1 -noun_heads> w1
-    p1 -noun_heads> w2
+    p1 <nhead- w1
+    p1 <nhead- w2
 
     % target=5
     % bases=(3,)
@@ -344,7 +344,7 @@ def deliver_params(target_nouns, tf=None):
             /-/
                 word pdp=adjv lex#KL/
 
-    p1 -noun_heads> w1
+    p1 <nhead- w1
 
     % target=3
     % bases=(5,)
@@ -373,9 +373,9 @@ def deliver_params(target_nouns, tf=None):
             subphrase
                 w1:target
                 <mother- subphrase rela=rec
-                    word pdp=subs ls#card|ordn lex#KL/
+                    word pdp=subs sem_set#quant
 
-    p1 -noun_heads> w1
+    p1 <nhead- w1
 
     % target=3
     % bases=(5,)
@@ -402,11 +402,11 @@ def deliver_params(target_nouns, tf=None):
     clause
         p1:phrase
             subphrase
-                w1:word ls#card|ordn lex#KL/
+                w1:word sem_set#quant
                 <mother- subphrase rela=rec
                     target
 
-    p1 -noun_heads> w1
+    p1 <nhead- w1
 
     % target=5
     % bases=(3,)
@@ -437,7 +437,7 @@ def deliver_params(target_nouns, tf=None):
         phrase_atom
             -noun_heads> target
         <mother- phrase_atom rela=Para
-            -noun_heads> word pdp=subs lex#KL/ ls#card|ordn
+            -noun_heads> word pdp=subs sem_set#quant
 
     % target=2
     % bases=(4,)
@@ -462,8 +462,8 @@ def deliver_params(target_nouns, tf=None):
     pa_parallel_rela = '''
 
     clause
-        phrase_atom
-            -noun_heads> word pdp=subs lex#KL/ ls#card|ordn
+        p:phrase_atom
+            -noun_heads> word pdp=subs sem_set#quant
         <mother- phrase_atom rela=Para
             -noun_heads> target
 
@@ -486,15 +486,18 @@ def deliver_params(target_nouns, tf=None):
                       })
 
 
-    # a lexeme is in apposition to target
+    # a lexeme is in apposition to target word
+    # NB that for appositions I opt for the older heads feature,
+    # since new heads does not yet include phrase_atom heads, and those
+    # are a necessity for apposition relations
     pa_apposition = '''
 
     clause
         phrase_atom
             -noun_heads> target
         <mother- phrase_atom rela=Appo
-            -noun_heads> word ls#card|ordn lex#KL/
-
+            -noun_heads> word pdp=subs|nmpr sem_set#quant
+                
     % target=2
     % bases=(4,)
     '''
@@ -519,7 +522,7 @@ def deliver_params(target_nouns, tf=None):
 
     clause
         phrase_atom
-            -noun_heads> word ls#card|ordn lex#KL/
+            -noun_heads> word sem_set#quant
         <mother- phrase_atom rela=Appo
             -noun_heads> target
 
