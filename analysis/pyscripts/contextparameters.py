@@ -72,7 +72,7 @@ def deliver_params(target_nouns, tf=None):
         '''
         verb_stem = F.vs.v(verb_node)
         verb_lex = disambigUTF8(verb_node)
-        return f'{verb_stem}.{verb_lex}'
+        return f'{verb_lex}.{verb_stem}'
 
 
     # <><> clause constituent relation searches <><>
@@ -434,13 +434,17 @@ def deliver_params(target_nouns, tf=None):
     pa_parallel = '''
 
     clause
-        phrase_atom
-            -noun_heads> target
-        <mother- phrase_atom rela=Para
-            -noun_heads> word pdp=subs sem_set#quant
-
-    % target=2
-    % bases=(4,)
+        p:phrase
+            phrase_atom
+                w1:target
+            <mother- phrase_atom rela=Para
+                w2:word pdp=subs sem_set#quant
+    
+    p <nhead- w1
+    p <nhead- w2
+    
+    % target=3
+    % bases=(5,)
     '''
 
     def token_pa_parallel(bases, target):
@@ -449,8 +453,8 @@ def deliver_params(target_nouns, tf=None):
         return f'{para}.coord→ T'
 
     parameters.append({'template': dedent(pa_parallel), 
-                       'target': 2, 
-                       'bases': (4,), 
+                       'target': 3, 
+                       'bases': (5,), 
                        'target_tokenizer': token_lex, 
                        'basis_tokenizer': token_pa_parallel,
                        'sets': sets,
@@ -462,13 +466,17 @@ def deliver_params(target_nouns, tf=None):
     pa_parallel_rela = '''
 
     clause
-        p:phrase_atom
-            -noun_heads> word pdp=subs sem_set#quant
-        <mother- phrase_atom rela=Para
-            -noun_heads> target
+        p:phrase
+            phrase_atom
+                w1:word pdp=subs sem_set#quant
+            <mother- phrase_atom rela=Para
+                w2:target
 
-    % target=4
-    % bases=(2,)
+    p <nhead- w1
+    p <nhead- w2
+
+    % target=5
+    % bases=(3,)
     '''
 
     def token_pa_parallel_rela(bases, target):
@@ -477,8 +485,8 @@ def deliver_params(target_nouns, tf=None):
         return f'T.coord→ {paralleled}'
 
     parameters.append({'template': dedent(pa_parallel_rela), 
-                       'target': 4, 
-                       'bases': (2,), 
+                       'target': 5, 
+                       'bases': (3,), 
                        'target_tokenizer': token_lex, 
                        'basis_tokenizer': token_pa_parallel_rela,
                        'sets': sets,
@@ -487,7 +495,7 @@ def deliver_params(target_nouns, tf=None):
 
 
     # a lexeme is in apposition to target word
-    # NB that for appositions I opt for the older heads feature,
+    # NB that for appositions I opt for the older noun_heads feature,
     # since new heads does not yet include phrase_atom heads, and those
     # are a necessity for apposition relations
     pa_apposition = '''
