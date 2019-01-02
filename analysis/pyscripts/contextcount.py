@@ -126,7 +126,9 @@ class ContextCounter:
         self.target2gloss = dict()
         self.target2lex = dict()
         self.target2node = dict()
-        self.clause2basis2result = collections.defaultdict(lambda: collections.defaultdict(list))
+        self.target2basis2result = collections.defaultdict(lambda: collections.defaultdict(list))
+        self.clause2basis2result = collections.defaultdict(lambda: collections.defaultdict(list)) # for frame experiments only
+        self.basis2result = collections.defaultdict(list)
         self.totalresults = 0
 
         # run the search templates and tokenize results
@@ -172,7 +174,12 @@ class ContextCounter:
 
                 # add helper data 1, basis to results mapping
                 for bt in basis_tokens:
-                    self.clause2basis2result[clause][bt].append(specimen)
+                    if not frame:
+                        self.target2basis2result[target_token][bt].append(specimen)
+                        self.basis2result[bt].append(specimen)
+                    elif frame:
+                        self.clause2basis2result[clause][bt].append(specimen)
+                    
 
                 # add helper data 2, maps from targets to glosses, lexemes, and nodes
                 self.target2gloss[target_token] = F.gloss.v(L.u(target, 'lex')[0])
@@ -211,18 +218,6 @@ class ContextCounter:
         
         self.data = pd.DataFrame(counts).fillna(0)
         self.raw_data = experiment_data
-        
-        # assemble helper data: mapping from basis to list of search results
-        self.basis2result = collections.defaultdict(list)
-        for clause, bases in self.clause2basis2result.items():
-            for basis, results in bases.items():
-                self.basis2result[basis].extend(results)
-        self.target2basis2result = collections.defaultdict(lambda: collections.defaultdict(list))
-        for target, clauses in experiment_data.items():
-            for clause, bases in clauses.items():
-                for basis, results in self.clause2basis2result[clause].items():
-                    self.target2basis2result[target][basis].extend(results)
-        
     
     def frame_count(self, experiment_data):
         '''
@@ -242,11 +237,7 @@ class ContextCounter:
         '''
         
         ecounts = collections.defaultdict(lambda: collections.Counter())
-        
-        # helper data
-        self.basis2result = collections.defaultdict(list)
-        self.target2basis2result = collections.defaultdict(lambda: collections.defaultdict(list))
-        
+                
         for target, clauses in experiment_data.items():
             for clause, phrases in clauses.items():
                 
