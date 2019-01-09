@@ -369,16 +369,13 @@ def deliver_params(target_nouns, tf=None):
     sp_construct = '''
 
     clause
-        p1:phrase
-            subphrase
-                w1:target
-                <mother- subphrase rela=rec
-                    word pdp=subs sem_set#quant
+        phrase
+            target st=c
+            {article}
+            <: basis:word pdp=subs sem_set#quant
 
-    p1 <nhead- w1
-
-    % target=3
-    % bases=(5,)
+    % target=2
+    % bases=(3|4,)
     '''
 
     def token_sp_construct(bases, target):
@@ -387,29 +384,37 @@ def deliver_params(target_nouns, tf=None):
         return f'{constr}.const→ T'
 
     parameters.append({'template': dedent(sp_construct), 
-                       'target': 3, 
-                       'bases': (5,), 
+                       'target': 2, 
+                       'bases': (3,), 
                        'target_tokenizer': token_lex, 
                        'basis_tokenizer': token_sp_construct,
                        'sets': sets,
+                       'kwargs': {'article':''},
                        'name': 'lex.const→ T'
                       })
 
-
+    # with article separation
+    parameters.append({'template': dedent(sp_construct), 
+                       'target': 2, 
+                       'bases': (4,), 
+                       'target_tokenizer': token_lex, 
+                       'basis_tokenizer': token_sp_construct,
+                       'sets': sets,
+                       'kwargs': {'article':'<: word pdp=art'},
+                       'name': 'lex.const→ T (with article separation)'
+                      })    
+    
     # target is construct with a lexeme
     sp_construct_rela = '''
 
     clause
-        p1:phrase
-            subphrase
-                w1:word sem_set#quant
-                <mother- subphrase rela=rec
-                    target
-
-    p1 <nhead- w1
-
-    % target=5
-    % bases=(3,)
+        phrase
+            word sem_set#quant|prep pdp#art st=c
+            {article}
+            <: target
+                    
+    % target=3|4
+    % bases=(2,)
     '''
 
     def token_sp_construct_rela(bases, target):
@@ -418,12 +423,23 @@ def deliver_params(target_nouns, tf=None):
         return f'T.const→ {absolute}'
 
     parameters.append({'template': dedent(sp_construct_rela), 
-                       'target': 5, 
-                       'bases': (3,), 
+                       'target': 3, 
+                       'bases': (2,), 
                        'target_tokenizer': token_lex, 
                        'basis_tokenizer': token_sp_construct_rela,
+                       'kwargs': {'article':''},
                        'sets': sets,
                        'name': 'T.const→ lex'
+                      })
+    
+    parameters.append({'template': dedent(sp_construct_rela), 
+                       'target': 4, 
+                       'bases': (2,), 
+                       'target_tokenizer': token_lex, 
+                       'basis_tokenizer': token_sp_construct_rela,
+                       'kwargs': {'article':'<: word pdp=art'},
+                       'sets': sets,
+                       'name': 'T.const→ lex (with article separation)'
                       })
 
 
@@ -446,7 +462,7 @@ def deliver_params(target_nouns, tf=None):
     % target=3
     % bases=(5,)
     '''
-
+    
     def token_pa_parallel(bases, target):
         # lex.coord→ T
         para = token_lex(bases[0])
