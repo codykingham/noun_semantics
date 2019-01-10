@@ -129,6 +129,7 @@ class ContextCounter:
         self.target2basis2result = collections.defaultdict(lambda: collections.defaultdict(list))
         self.clause2basis2result = collections.defaultdict(lambda: collections.defaultdict(list)) # for frame experiments only
         self.basis2result = collections.defaultdict(list)
+        self.search2result = {}
         self.totalresults = 0
 
         # run the search templates and tokenize results
@@ -185,6 +186,7 @@ class ContextCounter:
                 self.target2gloss[target_token] = F.gloss.v(L.u(target, 'lex')[0])
                 self.target2lex[target_token] = L.u(target, 'lex')[0]
                 self.target2node[target_token] = target
+                self.search2result[name] = search
                 
         print(f'<><> Tests Done with {self.totalresults} results <><>')
                 

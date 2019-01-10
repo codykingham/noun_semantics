@@ -364,7 +364,37 @@ def deliver_params(target_nouns, tf=None):
                        'name': 'lex.atr→ T'
                       })
 
+    
+'''
+**NOTES REGARDING CONSTRUCT RELATIONS**
 
+!! CONSTRUCT RELATIONS HAVE BEEN COMMENTED OUT FROM THE ANALYSIS !!
+
+Running the model with construct relations has shown
+that they introduce a lot of noisy information. For instance,
+compare the relatedness of a construction like "sons and fathers," 
+wherein both "son" and "father" are obviously related, with the 
+less-informative "man of war" and "man of YHWH" (example from the
+previous iteration of data). This construction, in particular, 
+resulted in YHWH being rated similar to war (מלחמה). The ultimate
+issue with using the construct relation for semantic extraction is
+its ambiguity. The construct can subtly encode a whole host of 
+different kinds of relations. In "man of war," the man is portrayed
+perhaps as a subject of an implied verb "war maker," or some similar
+relation. In "man of YHWH," the "genitive" is more of a possessive 
+genitive.
+
+There is hope for reintegrating the construct relations into the analysis.
+For instance, after analyzing YHWH and מלחמה, it might be possible to abstract 
+semantic scores or classes that can be applied in place of the lexemes. A
+formal characteristic of the possessive use might be found in the 
+person-ness of the genitive noun. Future research might thus be able 
+to cluster various construct uses, and the classes can in turn be used to
+further refine the overall model.
+'''
+    
+    
+    
     # a lexeme is construct with target
     sp_construct = '''
 
@@ -383,26 +413,26 @@ def deliver_params(target_nouns, tf=None):
         constr = token_lex(bases[0])
         return f'{constr}.const→ T'
 
-    parameters.append({'template': dedent(sp_construct), 
-                       'target': 2, 
-                       'bases': (3,), 
-                       'target_tokenizer': token_lex, 
-                       'basis_tokenizer': token_sp_construct,
-                       'sets': sets,
-                       'kwargs': {'article':''},
-                       'name': 'lex.const→ T'
-                      })
+#     parameters.append({'template': dedent(sp_construct), 
+#                        'target': 2, 
+#                        'bases': (3,), 
+#                        'target_tokenizer': token_lex, 
+#                        'basis_tokenizer': token_sp_construct,
+#                        'sets': sets,
+#                        'kwargs': {'article':''},
+#                        'name': 'lex.const→ T'
+#                       })
 
-    # with article separation
-    parameters.append({'template': dedent(sp_construct), 
-                       'target': 2, 
-                       'bases': (4,), 
-                       'target_tokenizer': token_lex, 
-                       'basis_tokenizer': token_sp_construct,
-                       'sets': sets,
-                       'kwargs': {'article':'<: word pdp=art'},
-                       'name': 'lex.const→ T (with article separation)'
-                      })    
+#     # with article separation
+#     parameters.append({'template': dedent(sp_construct), 
+#                        'target': 2, 
+#                        'bases': (4,), 
+#                        'target_tokenizer': token_lex, 
+#                        'basis_tokenizer': token_sp_construct,
+#                        'sets': sets,
+#                        'kwargs': {'article':'<: word pdp=art'},
+#                        'name': 'lex.const→ T (with article separation)'
+#                       }) 
     
     # target is construct with a lexeme
     sp_construct_rela = '''
@@ -421,26 +451,26 @@ def deliver_params(target_nouns, tf=None):
         # T.const→ lex
         absolute = token_lex(bases[0])
         return f'T.const→ {absolute}'
-
-    parameters.append({'template': dedent(sp_construct_rela), 
-                       'target': 3, 
-                       'bases': (2,), 
-                       'target_tokenizer': token_lex, 
-                       'basis_tokenizer': token_sp_construct_rela,
-                       'kwargs': {'article':''},
-                       'sets': sets,
-                       'name': 'T.const→ lex'
-                      })
     
-    parameters.append({'template': dedent(sp_construct_rela), 
-                       'target': 4, 
-                       'bases': (2,), 
-                       'target_tokenizer': token_lex, 
-                       'basis_tokenizer': token_sp_construct_rela,
-                       'kwargs': {'article':'<: word pdp=art'},
-                       'sets': sets,
-                       'name': 'T.const→ lex (with article separation)'
-                      })
+#     parameters.append({'template': dedent(sp_construct_rela), 
+#                        'target': 3, 
+#                        'bases': (2,), 
+#                        'target_tokenizer': token_lex, 
+#                        'basis_tokenizer': token_sp_construct_rela,
+#                        'kwargs': {'article':''},
+#                        'sets': sets,
+#                        'name': 'T.const→ lex'
+#                       })
+    
+#     parameters.append({'template': dedent(sp_construct_rela), 
+#                        'target': 4, 
+#                        'bases': (2,), 
+#                        'target_tokenizer': token_lex, 
+#                        'basis_tokenizer': token_sp_construct_rela,
+#                        'kwargs': {'article':'<: word pdp=art'},
+#                        'sets': sets,
+#                        'name': 'T.const→ lex (with article separation)'
+#                       })
 
 
     # <><> phrase atom relation searches <><>
