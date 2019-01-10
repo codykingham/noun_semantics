@@ -1,0 +1,26 @@
+,1
+בן.n1.coord→ T,7.9
+T.coord→ בן.n1,6.29
+בן.n1.appo→ T,6.0
+T.appo→ בן.n1,5.95
+בת.n1.coord→ T,5.33
+T.coord→ אהרן.n1,3.2
+T.Objc→ ילד.v1.qal,3.14
+T.אל.Cmpl→ דבר.v1.piel,2.0
+T.Objc→ ילד.v1.hif,1.7
+T.appo→ יהושׁע.n1,1.56
+אח.n1.coord→ T,1.35
+כהן.n1.appo→ T,1.32
+T.appo→ שׁלמה.n2,1.12
+T.appo→ בניהו.n1,1.07
+שׁבט.n1.coord→ T,0.86
+בן.n1.PreC→ T.Subj,0.75
+T.appo→ ירבעם.n1,0.73
+T.PreC→ בן.n1.Subj,0.61
+בכר.n1.appo→ T,0.6
+T.coord→ אתה,0.59
+T.appo→ אלעזר.n1,0.58
+T.coord→ אשׁה.n1,0.57
+T.appo→ פקח.n2,0.56
+T.appo→ שׁמעי.n2,0.54
+T.appo→ פינחס.n1,0.53
