@@ -1,11 +1,12 @@
-# Unsupervised Clustering of Noun Semantics with the ETCBC's BHSA
+# Unsupervised Clustering of Noun Semantics 
+### Cody Kingham
 
 This repository contains project data and analysis for my upcoming article on 
 applying unsupervised clustering techniques (e.g. PCA) to analyze the semantics 
-of nouns in the Hebrew Bible. I plot the resulting data and also do some analysis
-with Gephi. The result is that interesting patterns emerge, such as a separation
-of nouns into more and less animate groups. The draft article that accompanies
-this repository is currently in preparation.
+of nouns in the Hebrew Bible using the Eep Talstra Centre's BHSA dataset. I plot 
+the resulting data and also do some analysis with Gephi. The result is that interesting 
+patterns emerge, such as a separation of nouns into more and less animate groups. The 
+draft article that accompanies this repository is currently in preparation.
 
 All of the analysis takes place in the [analysis notebook](https://nbviewer.jupyter.org/github/codykingham/noun_semantics/blob/master/analysis.ipynb).
 
