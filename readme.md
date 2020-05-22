@@ -20,7 +20,7 @@ All of the analysis takes place in the [analysis notebook](https://nbviewer.jupy
 
 
 <br>
-<a href="https://www.ames.cam.ac.uk/people/current-phd-students"><img src="docs/CambridgeU_BW.png" width="295.25" height="61.375"></a> 
+<a href="https://www.ames.cam.ac.uk/people/current-phd-students"><img src="docs/CambridgeU_BW.png" width="25%" height="25%"></a> 
 
 <hr>
 
