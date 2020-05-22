@@ -1,4 +1,4 @@
-# Unsupervised Clustering of Noun Semantics 
+# Unsupervised Clustering of Biblical Hebrew Nouns
 ### Cody Kingham
 
 <a href="https://www.ames.cam.ac.uk/people/current-phd-students"><img src="docs/CambridgeU_BW.png" width="20%" height="20%"></a> 
