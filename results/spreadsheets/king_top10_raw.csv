@@ -1,0 +1,11 @@
+,count,rank
+T.Subj→ אמר.v1.qal,127.0,1
+T.appo→ אדון.n1,58.0,2
+T.אל.Cmpl→ אמר.v1.qal,39.0,3
+T.אל.Cmpl→ בוא.v1.qal,35.0,4
+T.Subj→ שׁלח.v1.qal,34.0,5
+דוד.n3.appo→ T,32.0,6
+T.Subj→ בוא.v1.qal,28.0,7
+T.Subj→ עשׂה.v1.qal,26.0,8
+T.coord→ מלך.n1,25.0,9
+מלך.n1.coord→ T,25.0,10

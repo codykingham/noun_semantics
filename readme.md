@@ -1,15 +1,22 @@
-# [View the Data and Results](https://nbviewer.jupyter.org/github/codykingham/noun_semantics_SBL18/blob/master/analysis/noun_semantics.ipynb)
+# Unsupervised Clustering of Noun Semantics with the ETCBC's BHSA
 
-# Modeling Noun Semantics with Vector Spaces and the ETCBC Hebrew Database
+This repository contains project data and analysis for my upcoming article on 
+applying unsupervised clustering techniques (e.g. PCA) to analyze the semantics 
+of nouns in the Hebrew Bible. I plot the resulting data and also do some analysis
+with Gephi. The result is that interesting patterns emerge, such as a separation
+of nouns into more and less animate groups. The draft article that accompanies
+this repository is currently in preparation.
 
-This repository contains project data and analysis for my SBL presentation on noun semantics in the Hebrew Bible. I rate the similarity of the top 200 nouns in the Hebrew Bible pairwise using their syntactic contexts. I then plot the resulting data with principle component analysis and with Gephi. The result is a high quality semantic vector space that can be built upon to expand the coverage of analysis. A draft article from this project is currently in preparation.
-
-All of the analysis in this repository takes place in the [noun semantics jupyer notebook](https://nbviewer.jupyter.org/github/codykingham/noun_semantics_SBL18/blob/master/analysis/noun_semantics.ipynb).
+All of the analysis takes place in the [analysis notebook](https://nbviewer.jupyter.org/github/codykingham/noun_semantics/blob/master/analysis.ipynb).
 
 ## Contents 
 
-* [analysis](analysis) - main analyses and project code in Jupyter Notebooks
-* [images](images) — project images for/from notebooks and markdown
+* [analysis](analysis.ipynb) - main analysis in a Jupyter Notebook
+* [results](results) - plots, tables, Gephi data produced by the analysis
+* [dataset.csv](dataset.csv) - the dataset used for the analysis 
+* [pyscripts](pyscripts) - Python scripts that build the dataset
+* [docs](docs) - mainly image files and schemas for documentation of methods
+
 
 <br>
 <a href="https://www.ames.cam.ac.uk/people/current-phd-students"><img src="images/CambridgeU_BW.png" width="295.25" height="61.375"></a> 
