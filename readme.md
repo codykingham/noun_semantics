@@ -19,7 +19,7 @@ All of the analysis takes place in the [analysis notebook](https://nbviewer.jupy
 * [dataset.csv](dataset.csv) - the dataset used for the analysis 
 * [pyscripts](pyscripts) - Python scripts that build the dataset
 * [docs](docs) - mainly image files and schemas for documentation of methods
-
+* [slides](slides) - slideshow from my 2018 SBL presentation on this analysis
 
 <br>
 
