@@ -50,8 +50,9 @@ def deliver_data(parameters, tf, report=True):
             for basis_tag in basis_tokens:
                 data.append({
                     'clause': clause,
-                    'clause_text': T.text(clause),
+                    'book': book,
                     'ref': f'{book} {chapter}:{verse}',
+                    'clause_text': T.text(clause),
                     'target': target_token,
                     'target_node': target,
                     'basis': basis_tag,
