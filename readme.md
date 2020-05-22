@@ -1,6 +1,8 @@
 # Unsupervised Clustering of Noun Semantics 
 ### Cody Kingham
 
+<a href="https://www.ames.cam.ac.uk/people/current-phd-students"><img src="docs/CambridgeU_BW.png" width="20%" height="20%"></a> 
+
 This repository contains project data and analysis for my upcoming article on 
 applying unsupervised clustering techniques (e.g. PCA) to analyze the semantics 
 of nouns in the Hebrew Bible using the Eep Talstra Centre's BHSA dataset. I plot 
@@ -20,7 +22,7 @@ All of the analysis takes place in the [analysis notebook](https://nbviewer.jupy
 
 
 <br>
-<a href="https://www.ames.cam.ac.uk/people/current-phd-students"><img src="docs/CambridgeU_BW.png" width="25%" height="25%"></a> 
+
 
 <hr>
 
