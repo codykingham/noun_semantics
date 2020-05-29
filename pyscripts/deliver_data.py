@@ -1,6 +1,8 @@
 # this module takes in a set of search parameters and tokenizers and delivers 
 # a list of contexts for analysis
 
+import numpy as np
+
 def deliver_data(parameters, tf, report=True):
     """Run queries with parameters and return results as a list"""
 
@@ -31,6 +33,13 @@ def deliver_data(parameters, tf, report=True):
 
         # make target token
         for specimen in search:
+        
+            # get phrase function for dataset
+            function = np.nan
+            if 'funct' in name:
+                phrases = [n for n in specimen if F.otype.v(n) == 'phrase']
+                funct_phrase = phrase[-1] if phrases else 0
+                function = F.function.v(funct_phrase) or np.nan
 
             # get clause for clause-token mapping
             book,chapter,verse = T.sectionFromNode(specimen[0])
@@ -58,6 +67,8 @@ def deliver_data(parameters, tf, report=True):
                     'basis': basis_tag,
                     'basis_nodes': bases_nodes, 
                     'verse_text': T.text(verse_node),
+                    'context_type': name,
+                    'function': function,
                 }) 
 
     return data 
