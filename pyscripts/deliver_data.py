@@ -2,6 +2,7 @@
 # a list of contexts for analysis
 
 import numpy as np
+from .feature_formatting import book2sbl, simplified_functions
 
 def deliver_data(parameters, tf, report=True):
     """Run queries with parameters and return results as a list"""
@@ -40,9 +41,11 @@ def deliver_data(parameters, tf, report=True):
                 phrases = [n for n in specimen if F.otype.v(n) == 'phrase']
                 funct_phrase = phrases[-1] if phrases else 0
                 function = F.function.v(funct_phrase) or np.nan
+                function = simplified_functions.get(function, function)
 
             # get clause for clause-token mapping
             book,chapter,verse = T.sectionFromNode(specimen[0])
+            book = book2sbl[book]
             clause = specimen[0] if F.otype.v(specimen[0]) == 'clause'\
                          else next(r for r in specimen if F.otype.v(r) == 'clause')
             target = specimen[target_i]
