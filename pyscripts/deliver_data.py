@@ -38,7 +38,7 @@ def deliver_data(parameters, tf, report=True):
             function = np.nan
             if 'funct' in name:
                 phrases = [n for n in specimen if F.otype.v(n) == 'phrase']
-                funct_phrase = phrase[-1] if phrases else 0
+                funct_phrase = phrases[-1] if phrases else 0
                 function = F.function.v(funct_phrase) or np.nan
 
             # get clause for clause-token mapping
