@@ -286,7 +286,7 @@ def deliver_params(target_nouns, tf=None):
     def token_sp_parallel(bases, target):
         # lex.coord→ T
         par = token_lex(bases[0])
-        return f'{par}.coord→ T'
+        return f'T.coord→ {par}'
 
     parameters.append({'template': dedent(sp_parallel), 
                        'target': 3, 
@@ -496,7 +496,7 @@ def deliver_params(target_nouns, tf=None):
     def token_pa_parallel(bases, target):
         # lex.coord→ T
         para = token_lex(bases[0])
-        return f'{para}.coord→ T'
+        return f'T.coord→ {para}'
 
     parameters.append({'template': dedent(pa_parallel), 
                        'target': 3, 
@@ -527,8 +527,8 @@ def deliver_params(target_nouns, tf=None):
 
     def token_pa_parallel_rela(bases, target):
         # T.coord→ lex
-        paralleled = token_lex(bases[0])
-        return f'T.coord→ {paralleled}'
+        para = token_lex(bases[0])
+        return f'T.coord→ {para}'
 
     parameters.append({'template': dedent(pa_parallel_rela), 
                        'target': 5, 
