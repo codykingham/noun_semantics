@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Created with matplotlib (https://matplotlib.org/) -->
-<svg height="465.958125pt" version="1.1" viewBox="0 0 482.542188 465.958125" width="482.542188pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg height="468.645239pt" version="1.1" viewBox="0 0 482.542187 468.645239" width="482.542187pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <style type="text/css">
 *{stroke-linecap:butt;stroke-linejoin:round;}
@@ -10,19 +10,19 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 465.958125 
-L 482.542188 465.958125 
-L 482.542188 0 
+   <path d="M 0 468.645239 
+L 482.542187 468.645239 
+L 482.542187 0 
 L 0 0 
 z
 " style="fill:#ffffff;"/>
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path d="M 28.942188 442.08 
-L 475.342187 442.08 
-L 475.342187 7.2 
-L 28.942188 7.2 
+    <path d="M 28.942188 444.767114 
+L 475.342187 444.767114 
+L 475.342187 9.887114 
+L 28.942188 9.887114 
 z
 " style="fill:#ffffff;"/>
    </g>
@@ -33,14 +33,14 @@ z
       <defs>
        <path d="M 0 0 
 L 0 3.5 
-" id="mf0fc9ac345" style="stroke:#000000;stroke-width:0.8;"/>
+" id="mc6d5ee90ec" style="stroke:#000000;stroke-width:0.8;"/>
       </defs>
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="70.153602" xlink:href="#mf0fc9ac345" y="442.08"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="36.732128" xlink:href="#mc6d5ee90ec" y="444.767114"/>
       </g>
      </g>
      <g id="text_1">
-      <!-- −4 -->
+      <!-- −6 -->
       <defs>
        <path d="M 10.59375 35.5 
 L 73.1875 35.5 
@@ -48,141 +48,6 @@ L 73.1875 27.203125
 L 10.59375 27.203125 
 z
 " id="DejaVuSans-8722"/>
-       <path d="M 37.796875 64.3125 
-L 12.890625 25.390625 
-L 37.796875 25.390625 
-z
-M 35.203125 72.90625 
-L 47.609375 72.90625 
-L 47.609375 25.390625 
-L 58.015625 25.390625 
-L 58.015625 17.1875 
-L 47.609375 17.1875 
-L 47.609375 0 
-L 37.796875 0 
-L 37.796875 17.1875 
-L 4.890625 17.1875 
-L 4.890625 26.703125 
-z
-" id="DejaVuSans-52"/>
-      </defs>
-      <g transform="translate(62.782508 456.678437)scale(0.1 -0.1)">
-       <use xlink:href="#DejaVuSans-8722"/>
-       <use x="83.789062" xlink:href="#DejaVuSans-52"/>
-      </g>
-     </g>
-    </g>
-    <g id="xtick_2">
-     <g id="line2d_2">
-      <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="124.242153" xlink:href="#mf0fc9ac345" y="442.08"/>
-      </g>
-     </g>
-     <g id="text_2">
-      <!-- −2 -->
-      <defs>
-       <path d="M 19.1875 8.296875 
-L 53.609375 8.296875 
-L 53.609375 0 
-L 7.328125 0 
-L 7.328125 8.296875 
-Q 12.9375 14.109375 22.625 23.890625 
-Q 32.328125 33.6875 34.8125 36.53125 
-Q 39.546875 41.84375 41.421875 45.53125 
-Q 43.3125 49.21875 43.3125 52.78125 
-Q 43.3125 58.59375 39.234375 62.25 
-Q 35.15625 65.921875 28.609375 65.921875 
-Q 23.96875 65.921875 18.8125 64.3125 
-Q 13.671875 62.703125 7.8125 59.421875 
-L 7.8125 69.390625 
-Q 13.765625 71.78125 18.9375 73 
-Q 24.125 74.21875 28.421875 74.21875 
-Q 39.75 74.21875 46.484375 68.546875 
-Q 53.21875 62.890625 53.21875 53.421875 
-Q 53.21875 48.921875 51.53125 44.890625 
-Q 49.859375 40.875 45.40625 35.40625 
-Q 44.1875 33.984375 37.640625 27.21875 
-Q 31.109375 20.453125 19.1875 8.296875 
-z
-" id="DejaVuSans-50"/>
-      </defs>
-      <g transform="translate(116.871059 456.678437)scale(0.1 -0.1)">
-       <use xlink:href="#DejaVuSans-8722"/>
-       <use x="83.789062" xlink:href="#DejaVuSans-50"/>
-      </g>
-     </g>
-    </g>
-    <g id="xtick_3">
-     <g id="line2d_3">
-      <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="178.330704" xlink:href="#mf0fc9ac345" y="442.08"/>
-      </g>
-     </g>
-     <g id="text_3">
-      <!-- 0 -->
-      <defs>
-       <path d="M 31.78125 66.40625 
-Q 24.171875 66.40625 20.328125 58.90625 
-Q 16.5 51.421875 16.5 36.375 
-Q 16.5 21.390625 20.328125 13.890625 
-Q 24.171875 6.390625 31.78125 6.390625 
-Q 39.453125 6.390625 43.28125 13.890625 
-Q 47.125 21.390625 47.125 36.375 
-Q 47.125 51.421875 43.28125 58.90625 
-Q 39.453125 66.40625 31.78125 66.40625 
-z
-M 31.78125 74.21875 
-Q 44.046875 74.21875 50.515625 64.515625 
-Q 56.984375 54.828125 56.984375 36.375 
-Q 56.984375 17.96875 50.515625 8.265625 
-Q 44.046875 -1.421875 31.78125 -1.421875 
-Q 19.53125 -1.421875 13.0625 8.265625 
-Q 6.59375 17.96875 6.59375 36.375 
-Q 6.59375 54.828125 13.0625 64.515625 
-Q 19.53125 74.21875 31.78125 74.21875 
-z
-" id="DejaVuSans-48"/>
-      </defs>
-      <g transform="translate(175.149454 456.678437)scale(0.1 -0.1)">
-       <use xlink:href="#DejaVuSans-48"/>
-      </g>
-     </g>
-    </g>
-    <g id="xtick_4">
-     <g id="line2d_4">
-      <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="232.419255" xlink:href="#mf0fc9ac345" y="442.08"/>
-      </g>
-     </g>
-     <g id="text_4">
-      <!-- 2 -->
-      <g transform="translate(229.238005 456.678437)scale(0.1 -0.1)">
-       <use xlink:href="#DejaVuSans-50"/>
-      </g>
-     </g>
-    </g>
-    <g id="xtick_5">
-     <g id="line2d_5">
-      <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="286.507806" xlink:href="#mf0fc9ac345" y="442.08"/>
-      </g>
-     </g>
-     <g id="text_5">
-      <!-- 4 -->
-      <g transform="translate(283.326556 456.678437)scale(0.1 -0.1)">
-       <use xlink:href="#DejaVuSans-52"/>
-      </g>
-     </g>
-    </g>
-    <g id="xtick_6">
-     <g id="line2d_6">
-      <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="340.596357" xlink:href="#mf0fc9ac345" y="442.08"/>
-      </g>
-     </g>
-     <g id="text_6">
-      <!-- 6 -->
-      <defs>
        <path d="M 33.015625 40.375 
 Q 26.375 40.375 22.484375 35.828125 
 Q 18.609375 31.296875 18.609375 23.390625 
@@ -214,18 +79,167 @@ Q 48.484375 72.75 52.59375 71.296875
 z
 " id="DejaVuSans-54"/>
       </defs>
-      <g transform="translate(337.415107 456.678437)scale(0.1 -0.1)">
-       <use xlink:href="#DejaVuSans-54"/>
+      <g transform="translate(29.361034 459.365552)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-8722"/>
+       <use x="83.789062" xlink:href="#DejaVuSans-54"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.8;" x="86.771137" xlink:href="#mc6d5ee90ec" y="444.767114"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <!-- −4 -->
+      <defs>
+       <path d="M 37.796875 64.3125 
+L 12.890625 25.390625 
+L 37.796875 25.390625 
+z
+M 35.203125 72.90625 
+L 47.609375 72.90625 
+L 47.609375 25.390625 
+L 58.015625 25.390625 
+L 58.015625 17.1875 
+L 47.609375 17.1875 
+L 47.609375 0 
+L 37.796875 0 
+L 37.796875 17.1875 
+L 4.890625 17.1875 
+L 4.890625 26.703125 
+z
+" id="DejaVuSans-52"/>
+      </defs>
+      <g transform="translate(79.400044 459.365552)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-8722"/>
+       <use x="83.789062" xlink:href="#DejaVuSans-52"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.8;" x="136.810147" xlink:href="#mc6d5ee90ec" y="444.767114"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <!-- −2 -->
+      <defs>
+       <path d="M 19.1875 8.296875 
+L 53.609375 8.296875 
+L 53.609375 0 
+L 7.328125 0 
+L 7.328125 8.296875 
+Q 12.9375 14.109375 22.625 23.890625 
+Q 32.328125 33.6875 34.8125 36.53125 
+Q 39.546875 41.84375 41.421875 45.53125 
+Q 43.3125 49.21875 43.3125 52.78125 
+Q 43.3125 58.59375 39.234375 62.25 
+Q 35.15625 65.921875 28.609375 65.921875 
+Q 23.96875 65.921875 18.8125 64.3125 
+Q 13.671875 62.703125 7.8125 59.421875 
+L 7.8125 69.390625 
+Q 13.765625 71.78125 18.9375 73 
+Q 24.125 74.21875 28.421875 74.21875 
+Q 39.75 74.21875 46.484375 68.546875 
+Q 53.21875 62.890625 53.21875 53.421875 
+Q 53.21875 48.921875 51.53125 44.890625 
+Q 49.859375 40.875 45.40625 35.40625 
+Q 44.1875 33.984375 37.640625 27.21875 
+Q 31.109375 20.453125 19.1875 8.296875 
+z
+" id="DejaVuSans-50"/>
+      </defs>
+      <g transform="translate(129.439053 459.365552)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-8722"/>
+       <use x="83.789062" xlink:href="#DejaVuSans-50"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.8;" x="186.849156" xlink:href="#mc6d5ee90ec" y="444.767114"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <!-- 0 -->
+      <defs>
+       <path d="M 31.78125 66.40625 
+Q 24.171875 66.40625 20.328125 58.90625 
+Q 16.5 51.421875 16.5 36.375 
+Q 16.5 21.390625 20.328125 13.890625 
+Q 24.171875 6.390625 31.78125 6.390625 
+Q 39.453125 6.390625 43.28125 13.890625 
+Q 47.125 21.390625 47.125 36.375 
+Q 47.125 51.421875 43.28125 58.90625 
+Q 39.453125 66.40625 31.78125 66.40625 
+z
+M 31.78125 74.21875 
+Q 44.046875 74.21875 50.515625 64.515625 
+Q 56.984375 54.828125 56.984375 36.375 
+Q 56.984375 17.96875 50.515625 8.265625 
+Q 44.046875 -1.421875 31.78125 -1.421875 
+Q 19.53125 -1.421875 13.0625 8.265625 
+Q 6.59375 17.96875 6.59375 36.375 
+Q 6.59375 54.828125 13.0625 64.515625 
+Q 19.53125 74.21875 31.78125 74.21875 
+z
+" id="DejaVuSans-48"/>
+      </defs>
+      <g transform="translate(183.667906 459.365552)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.8;" x="236.888165" xlink:href="#mc6d5ee90ec" y="444.767114"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <!-- 2 -->
+      <g transform="translate(233.706915 459.365552)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-50"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.8;" x="286.927175" xlink:href="#mc6d5ee90ec" y="444.767114"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <!-- 4 -->
+      <g transform="translate(283.745925 459.365552)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-52"/>
       </g>
      </g>
     </g>
     <g id="xtick_7">
      <g id="line2d_7">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="394.684908" xlink:href="#mf0fc9ac345" y="442.08"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="336.966184" xlink:href="#mc6d5ee90ec" y="444.767114"/>
       </g>
      </g>
      <g id="text_7">
+      <!-- 6 -->
+      <g transform="translate(333.784934 459.365552)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-54"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.8;" x="387.005194" xlink:href="#mc6d5ee90ec" y="444.767114"/>
+      </g>
+     </g>
+     <g id="text_8">
       <!-- 8 -->
       <defs>
        <path d="M 31.78125 34.625 
@@ -268,18 +282,18 @@ Q 18.3125 60.0625 18.3125 54.390625
 z
 " id="DejaVuSans-56"/>
       </defs>
-      <g transform="translate(391.503658 456.678437)scale(0.1 -0.1)">
+      <g transform="translate(383.823944 459.365552)scale(0.1 -0.1)">
        <use xlink:href="#DejaVuSans-56"/>
       </g>
      </g>
     </g>
-    <g id="xtick_8">
-     <g id="line2d_8">
+    <g id="xtick_9">
+     <g id="line2d_9">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="448.773459" xlink:href="#mf0fc9ac345" y="442.08"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="437.044203" xlink:href="#mc6d5ee90ec" y="444.767114"/>
       </g>
      </g>
-     <g id="text_8">
+     <g id="text_9">
       <!-- 10 -->
       <defs>
        <path d="M 12.40625 8.296875 
@@ -296,7 +310,7 @@ L 12.40625 0
 z
 " id="DejaVuSans-49"/>
       </defs>
-      <g transform="translate(442.410959 456.678437)scale(0.1 -0.1)">
+      <g transform="translate(430.681703 459.365552)scale(0.1 -0.1)">
        <use xlink:href="#DejaVuSans-49"/>
        <use x="63.623047" xlink:href="#DejaVuSans-48"/>
       </g>
@@ -305,135 +319,163 @@ z
    </g>
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
-     <g id="line2d_9">
+     <g id="line2d_10">
       <defs>
        <path d="M 0 0 
 L -3.5 0 
-" id="m57ac176b65" style="stroke:#000000;stroke-width:0.8;"/>
+" id="m16141c1f8c" style="stroke:#000000;stroke-width:0.8;"/>
       </defs>
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="28.942188" xlink:href="#m57ac176b65" y="414.446867"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="28.942188" xlink:href="#m16141c1f8c" y="438.52654"/>
       </g>
      </g>
-     <g id="text_9">
+     <g id="text_10">
+      <!-- −6 -->
+      <g transform="translate(7.2 442.325759)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-8722"/>
+       <use x="83.789062" xlink:href="#DejaVuSans-54"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_11">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.8;" x="28.942188" xlink:href="#m16141c1f8c" y="385.085625"/>
+      </g>
+     </g>
+     <g id="text_11">
       <!-- −4 -->
-      <g transform="translate(7.2 418.246086)scale(0.1 -0.1)">
+      <g transform="translate(7.2 388.884843)scale(0.1 -0.1)">
        <use xlink:href="#DejaVuSans-8722"/>
        <use x="83.789062" xlink:href="#DejaVuSans-52"/>
       </g>
      </g>
     </g>
-    <g id="ytick_2">
-     <g id="line2d_10">
+    <g id="ytick_3">
+     <g id="line2d_12">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="28.942188" xlink:href="#m57ac176b65" y="350.316808"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="28.942188" xlink:href="#m16141c1f8c" y="331.64471"/>
       </g>
      </g>
-     <g id="text_10">
+     <g id="text_12">
       <!-- −2 -->
-      <g transform="translate(7.2 354.116026)scale(0.1 -0.1)">
+      <g transform="translate(7.2 335.443928)scale(0.1 -0.1)">
        <use xlink:href="#DejaVuSans-8722"/>
        <use x="83.789062" xlink:href="#DejaVuSans-50"/>
       </g>
      </g>
     </g>
-    <g id="ytick_3">
-     <g id="line2d_11">
+    <g id="ytick_4">
+     <g id="line2d_13">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="28.942188" xlink:href="#m57ac176b65" y="286.186748"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="28.942188" xlink:href="#m16141c1f8c" y="278.203794"/>
       </g>
      </g>
-     <g id="text_11">
+     <g id="text_13">
       <!-- 0 -->
-      <g transform="translate(15.579688 289.985967)scale(0.1 -0.1)">
+      <g transform="translate(15.579688 282.003013)scale(0.1 -0.1)">
        <use xlink:href="#DejaVuSans-48"/>
       </g>
      </g>
     </g>
-    <g id="ytick_4">
-     <g id="line2d_12">
+    <g id="ytick_5">
+     <g id="line2d_14">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="28.942188" xlink:href="#m57ac176b65" y="222.056689"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="28.942188" xlink:href="#m16141c1f8c" y="224.762879"/>
       </g>
      </g>
-     <g id="text_12">
+     <g id="text_14">
       <!-- 2 -->
-      <g transform="translate(15.579688 225.855907)scale(0.1 -0.1)">
+      <g transform="translate(15.579688 228.562098)scale(0.1 -0.1)">
        <use xlink:href="#DejaVuSans-50"/>
       </g>
      </g>
     </g>
-    <g id="ytick_5">
-     <g id="line2d_13">
+    <g id="ytick_6">
+     <g id="line2d_15">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="28.942188" xlink:href="#m57ac176b65" y="157.926629"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="28.942188" xlink:href="#m16141c1f8c" y="171.321964"/>
       </g>
      </g>
-     <g id="text_13">
+     <g id="text_15">
       <!-- 4 -->
-      <g transform="translate(15.579688 161.725848)scale(0.1 -0.1)">
+      <g transform="translate(15.579688 175.121183)scale(0.1 -0.1)">
        <use xlink:href="#DejaVuSans-52"/>
       </g>
      </g>
     </g>
-    <g id="ytick_6">
-     <g id="line2d_14">
+    <g id="ytick_7">
+     <g id="line2d_16">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="28.942188" xlink:href="#m57ac176b65" y="93.79657"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="28.942188" xlink:href="#m16141c1f8c" y="117.881049"/>
       </g>
      </g>
-     <g id="text_14">
+     <g id="text_16">
       <!-- 6 -->
-      <g transform="translate(15.579688 97.595788)scale(0.1 -0.1)">
+      <g transform="translate(15.579688 121.680268)scale(0.1 -0.1)">
        <use xlink:href="#DejaVuSans-54"/>
       </g>
      </g>
     </g>
-    <g id="ytick_7">
-     <g id="line2d_15">
+    <g id="ytick_8">
+     <g id="line2d_17">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="28.942188" xlink:href="#m57ac176b65" y="29.66651"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="28.942188" xlink:href="#m16141c1f8c" y="64.440134"/>
       </g>
      </g>
-     <g id="text_15">
+     <g id="text_17">
       <!-- 8 -->
-      <g transform="translate(15.579688 33.465729)scale(0.1 -0.1)">
+      <g transform="translate(15.579688 68.239353)scale(0.1 -0.1)">
        <use xlink:href="#DejaVuSans-56"/>
       </g>
      </g>
     </g>
+    <g id="ytick_9">
+     <g id="line2d_18">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.8;" x="28.942188" xlink:href="#m16141c1f8c" y="10.999219"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <!-- 10 -->
+      <g transform="translate(9.217188 14.798437)scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-49"/>
+       <use x="63.623047" xlink:href="#DejaVuSans-48"/>
+      </g>
+     </g>
+    </g>
    </g>
-   <g id="line2d_16">
-    <path clip-path="url(#pf36febb352)" d="M 28.942188 286.186748 
-L 475.342187 286.186748 
-" style="fill:none;stroke:#1f77b4;stroke-linecap:square;stroke-width:0.7;"/>
+   <g id="line2d_19">
+    <path clip-path="url(#pe76be7b0c3)" d="M 28.942188 278.203794 
+L 475.342187 278.203794 
+" style="fill:none;stroke:#000000;stroke-linecap:square;stroke-width:0.7;"/>
    </g>
-   <g id="line2d_17">
-    <path clip-path="url(#pf36febb352)" d="M 178.330704 442.08 
-L 178.330704 7.2 
-" style="fill:none;stroke:#1f77b4;stroke-linecap:square;stroke-width:0.7;"/>
+   <g id="line2d_20">
+    <path clip-path="url(#pe76be7b0c3)" d="M 186.849156 444.767114 
+L 186.849156 9.887114 
+" style="fill:none;stroke:#000000;stroke-linecap:square;stroke-width:0.7;"/>
    </g>
    <g id="patch_3">
-    <path d="M 28.942188 442.08 
-L 28.942188 7.2 
+    <path d="M 28.942188 444.767114 
+L 28.942188 9.887114 
 " style="fill:none;stroke:#000000;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"/>
    </g>
    <g id="patch_4">
-    <path d="M 475.342187 442.08 
-L 475.342187 7.2 
+    <path d="M 475.342187 444.767114 
+L 475.342187 9.887114 
 " style="fill:none;stroke:#000000;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"/>
    </g>
    <g id="patch_5">
-    <path d="M 28.942187 442.08 
-L 475.342188 442.08 
+    <path d="M 28.942187 444.767114 
+L 475.342187 444.767114 
 " style="fill:none;stroke:#000000;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"/>
    </g>
    <g id="patch_6">
-    <path d="M 28.942187 7.2 
-L 475.342188 7.2 
+    <path d="M 28.942187 9.887114 
+L 475.342187 9.887114 
 " style="fill:none;stroke:#000000;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"/>
    </g>
-   <g id="text_16">
+   <g id="text_19">
     <!-- םיהלא -->
     <defs>
      <path d="M 5.859375 0 
@@ -584,7 +626,7 @@ Q 44.734375 2.296875 41.3125 -0.875
 z
 " id="TimesNewRomanPSMT-1488"/>
     </defs>
-    <g transform="translate(355.445937 208.960471)scale(0.1 -0.1)">
+    <g transform="translate(370.061757 217.181876)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1501"/>
      <use x="50.732422" xlink:href="#TimesNewRomanPSMT-1497"/>
      <use x="77.392578" xlink:href="#TimesNewRomanPSMT-1492"/>
@@ -592,7 +634,7 @@ z
      <use x="167.675781" xlink:href="#TimesNewRomanPSMT-1488"/>
     </g>
    </g>
-   <g id="text_17">
+   <g id="text_20">
     <!-- םוי -->
     <defs>
      <path d="M 18.84375 -0.921875 
@@ -612,13 +654,13 @@ Q 22.171875 0.78125 18.84375 -0.921875
 z
 " id="TimesNewRomanPSMT-1493"/>
     </defs>
-    <g transform="translate(72.73507 348.82755)scale(0.1 -0.1)">
+    <g transform="translate(72.831284 421.234887)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1501"/>
      <use x="50.732422" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="78.613281" xlink:href="#TimesNewRomanPSMT-1497"/>
     </g>
    </g>
-   <g id="text_18">
+   <g id="text_21">
     <!-- הנפ -->
     <defs>
      <path d="M 25.6875 0 
@@ -674,13 +716,13 @@ Q 29.6875 0 19.53125 0
 z
 " id="TimesNewRomanPSMT-1508"/>
     </defs>
-    <g transform="translate(97.638665 27.089545)scale(0.1 -0.1)">
+    <g transform="translate(103.453642 29.756279)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1504"/>
      <use x="77.587891" xlink:href="#TimesNewRomanPSMT-1508"/>
     </g>
    </g>
-   <g id="text_19">
+   <g id="text_22">
     <!-- די -->
     <defs>
      <path d="M 25.09375 -1.21875 
@@ -706,12 +748,12 @@ Q 32.234375 -0.046875 25.09375 -1.21875
 z
 " id="TimesNewRomanPSMT-1491"/>
     </defs>
-    <g transform="translate(49.333562 266.126531)scale(0.1 -0.1)">
+    <g transform="translate(49.32604 281.494001)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1491"/>
      <use x="41.894531" xlink:href="#TimesNewRomanPSMT-1497"/>
     </g>
    </g>
-   <g id="text_20">
+   <g id="text_23">
     <!-- רבד -->
     <defs>
      <path d="M 37.984375 -0.921875 
@@ -754,13 +796,13 @@ L 43.359375 9.96875
 z
 " id="TimesNewRomanPSMT-1489"/>
     </defs>
-    <g transform="translate(57.272133 422.190455)scale(0.1 -0.1)">
+    <g transform="translate(51.771853 424.897949)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="46.875" xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="92.382812" xlink:href="#TimesNewRomanPSMT-1491"/>
     </g>
    </g>
-   <g id="text_21">
+   <g id="text_24">
     <!-- השא -->
     <defs>
      <path d="M 40.09375 0 
@@ -806,27 +848,20 @@ Q 41.75 9.328125 40.09375 0
 z
 " id="TimesNewRomanPSMT-1513"/>
     </defs>
-    <g transform="translate(377.183111 288.64146)scale(0.1 -0.1)">
+    <g transform="translate(382.132004 287.723137)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1513"/>
      <use x="108.154297" xlink:href="#TimesNewRomanPSMT-1488"/>
     </g>
    </g>
-   <g id="text_22">
-    <!-- בא -->
-    <g transform="translate(454.950813 209.132298)scale(0.1 -0.1)">
-     <use xlink:href="#TimesNewRomanPSMT-1489"/>
-     <use x="45.507812" xlink:href="#TimesNewRomanPSMT-1488"/>
-    </g>
-   </g>
-   <g id="text_23">
+   <g id="text_25">
     <!-- םש -->
-    <g transform="translate(123.498682 311.085587)scale(0.1 -0.1)">
+    <g transform="translate(127.633914 308.568016)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1501"/>
      <use x="50.732422" xlink:href="#TimesNewRomanPSMT-1513"/>
     </g>
    </g>
-   <g id="text_24">
+   <g id="text_26">
     <!-- ןהכ -->
     <defs>
      <path d="M 15.921875 -17.28125 
@@ -867,13 +902,13 @@ Q 26.171875 0 18.5625 0
 z
 " id="TimesNewRomanPSMT-1499"/>
     </defs>
-    <g transform="translate(451.057409 226.54793)scale(0.1 -0.1)">
+    <g transform="translate(454.958335 235.359855)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1503"/>
      <use x="27.441406" xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="74.560547" xlink:href="#TimesNewRomanPSMT-1499"/>
     </g>
    </g>
-   <g id="text_25">
+   <g id="text_27">
     <!-- דבע -->
     <defs>
      <path d="M 3.265625 -1.421875 
@@ -914,13 +949,13 @@ Q 33.6875 2.15625 20.125 0.53125
 z
 " id="TimesNewRomanPSMT-1506"/>
     </defs>
-    <g transform="translate(437.158203 237.507953)scale(0.1 -0.1)">
+    <g transform="translate(433.977392 244.991508)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1491"/>
      <use x="41.894531" xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="87.402344" xlink:href="#TimesNewRomanPSMT-1506"/>
     </g>
    </g>
-   <g id="text_26">
+   <g id="text_28">
     <!-- תב -->
     <defs>
      <path d="M 40.96875 -0.828125 
@@ -954,36 +989,36 @@ Q 44.578125 0.984375 40.96875 -0.828125
 z
 " id="TimesNewRomanPSMT-1514"/>
     </defs>
-    <g transform="translate(286.456602 288.091836)scale(0.1 -0.1)">
+    <g transform="translate(302.286512 288.248197)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1514"/>
      <use x="50" xlink:href="#TimesNewRomanPSMT-1489"/>
     </g>
    </g>
-   <g id="text_27">
+   <g id="text_29">
     <!-- ןיע -->
-    <g transform="translate(147.884671 246.732693)scale(0.1 -0.1)">
+    <g transform="translate(151.741243 250.929376)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1503"/>
      <use x="27.441406" xlink:href="#TimesNewRomanPSMT-1497"/>
      <use x="54.101562" xlink:href="#TimesNewRomanPSMT-1506"/>
     </g>
    </g>
-   <g id="text_28">
+   <g id="text_30">
     <!-- הנש -->
-    <g transform="translate(138.432135 317.51913)scale(0.1 -0.1)">
+    <g transform="translate(142.617236 336.161045)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1504"/>
      <use x="77.587891" xlink:href="#TimesNewRomanPSMT-1513"/>
     </g>
    </g>
-   <g id="text_29">
+   <g id="text_31">
     <!-- שפנ -->
-    <g transform="translate(188.642349 245.140237)scale(0.1 -0.1)">
+    <g transform="translate(191.757178 252.955305)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1513"/>
      <use x="61.035156" xlink:href="#TimesNewRomanPSMT-1508"/>
      <use x="105.078125" xlink:href="#TimesNewRomanPSMT-1504"/>
     </g>
    </g>
-   <g id="text_30">
+   <g id="text_32">
     <!-- ךרד -->
     <defs>
      <path d="M 37.703125 39.984375 
@@ -1005,13 +1040,13 @@ Q 40.328125 42.578125 39.3125 41.40625
 z
 " id="TimesNewRomanPSMT-1498"/>
     </defs>
-    <g transform="translate(70.742969 251.349327)scale(0.1 -0.1)">
+    <g transform="translate(75.01869 263.654268)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1498"/>
      <use x="45.214844" xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="92.089844" xlink:href="#TimesNewRomanPSMT-1491"/>
     </g>
    </g>
-   <g id="text_31">
+   <g id="text_33">
     <!-- חא -->
     <defs>
      <path d="M 35.015625 -1.21875 
@@ -1045,12 +1080,12 @@ Q 41.84375 -0.203125 35.015625 -1.21875
 z
 " id="TimesNewRomanPSMT-1495"/>
     </defs>
-    <g transform="translate(375.278493 290.806429)scale(0.1 -0.1)">
+    <g transform="translate(375.912479 279.143647)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1495"/>
      <use x="47.65625" xlink:href="#TimesNewRomanPSMT-1488"/>
     </g>
    </g>
-   <g id="text_32">
+   <g id="text_34">
     <!-- לוק -->
     <defs>
      <path d="M 37.546875 20.3125 
@@ -1088,13 +1123,13 @@ Q 10.25 -15.328125 6.9375 -17.28125
 z
 " id="TimesNewRomanPSMT-1511"/>
     </defs>
-    <g transform="translate(114.442634 314.162336)scale(0.1 -0.1)">
+    <g transform="translate(116.401226 310.313005)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1500"/>
      <use x="43.164062" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="71.044922" xlink:href="#TimesNewRomanPSMT-1511"/>
     </g>
    </g>
-   <g id="text_33">
+   <g id="text_35">
     <!-- רׂש -->
     <defs>
      <path d="M -7.28125 62.796875 
@@ -1111,28 +1146,28 @@ Q -7.28125 61.671875 -7.28125 62.796875
 z
 " id="TimesNewRomanPSMT-1474"/>
     </defs>
-    <g transform="translate(364.632131 249.196522)scale(0.1 -0.1)">
+    <g transform="translate(369.002725 239.48209)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="46.875" xlink:href="#TimesNewRomanPSMT-1474"/>
      <use x="46.875" xlink:href="#TimesNewRomanPSMT-1513"/>
     </g>
    </g>
-   <g id="text_34">
+   <g id="text_36">
     <!-- בל -->
-    <g transform="translate(138.377176 206.614621)scale(0.1 -0.1)">
+    <g transform="translate(139.841284 216.601197)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="45.507812" xlink:href="#TimesNewRomanPSMT-1500"/>
     </g>
    </g>
-   <g id="text_35">
+   <g id="text_37">
     <!-- שאר -->
-    <g transform="translate(160.420162 262.767802)scale(0.1 -0.1)">
+    <g transform="translate(167.400519 259.436642)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1513"/>
      <use x="61.035156" xlink:href="#TimesNewRomanPSMT-1488"/>
      <use x="109.179688" xlink:href="#TimesNewRomanPSMT-1512"/>
     </g>
    </g>
-   <g id="text_36">
+   <g id="text_38">
     <!-- םימ -->
     <defs>
      <path d="M 42.09375 8.34375 
@@ -1166,13 +1201,13 @@ Q 43.890625 17.28125 42.09375 8.34375
 z
 " id="TimesNewRomanPSMT-1502"/>
     </defs>
-    <g transform="translate(162.092512 256.879039)scale(0.1 -0.1)">
+    <g transform="translate(166.620933 258.162943)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1501"/>
      <use x="50.732422" xlink:href="#TimesNewRomanPSMT-1497"/>
      <use x="77.392578" xlink:href="#TimesNewRomanPSMT-1502"/>
     </g>
    </g>
-   <g id="text_37">
+   <g id="text_39">
     <!-- יוג -->
     <defs>
      <path d="M 29.78125 -0.59375 
@@ -1202,13 +1237,13 @@ Q 31.59375 2.15625 29.78125 -0.59375
 z
 " id="TimesNewRomanPSMT-1490"/>
     </defs>
-    <g transform="translate(225.106544 168.622202)scale(0.1 -0.1)">
+    <g transform="translate(226.146358 190.955716)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1497"/>
      <use x="26.660156" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="54.541016" xlink:href="#TimesNewRomanPSMT-1490"/>
     </g>
    </g>
-   <g id="text_38">
+   <g id="text_40">
     <!-- טפשמ -->
     <defs>
      <path d="M 36.46875 0 
@@ -1237,36 +1272,36 @@ Q 42.71875 17.484375 36.46875 0
 z
 " id="TimesNewRomanPSMT-1496"/>
     </defs>
-    <g transform="translate(78.031922 381.468741)scale(0.1 -0.1)">
+    <g transform="translate(76.738215 382.849649)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1496"/>
      <use x="47.558594" xlink:href="#TimesNewRomanPSMT-1508"/>
      <use x="91.601562" xlink:href="#TimesNewRomanPSMT-1513"/>
      <use x="152.636719" xlink:href="#TimesNewRomanPSMT-1502"/>
     </g>
    </g>
-   <g id="text_39">
+   <g id="text_41">
     <!-- ילכ -->
-    <g transform="translate(100.640479 361.566775)scale(0.1 -0.1)">
+    <g transform="translate(102.956034 358.409565)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1497"/>
      <use x="26.660156" xlink:href="#TimesNewRomanPSMT-1500"/>
      <use x="69.824219" xlink:href="#TimesNewRomanPSMT-1499"/>
     </g>
    </g>
-   <g id="text_40">
+   <g id="text_42">
     <!-- רה -->
-    <g transform="translate(119.991051 57.106494)scale(0.1 -0.1)">
+    <g transform="translate(131.415385 70.090304)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="46.875" xlink:href="#TimesNewRomanPSMT-1492"/>
     </g>
    </g>
-   <g id="text_41">
+   <g id="text_43">
     <!-- הפ -->
-    <g transform="translate(130.128283 226.040398)scale(0.1 -0.1)">
+    <g transform="translate(137.957135 221.403296)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1508"/>
     </g>
    </g>
-   <g id="text_42">
+   <g id="text_44">
     <!-- ףסכ -->
     <defs>
      <path d="M 36.1875 -17.28125 
@@ -1329,13 +1364,13 @@ Q 33.296875 40.828125 27.34375 40.828125
 z
 " id="TimesNewRomanPSMT-1505"/>
     </defs>
-    <g transform="translate(117.159305 355.652606)scale(0.1 -0.1)">
+    <g transform="translate(122.206384 343.357832)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1507"/>
      <use x="45.410156" xlink:href="#TimesNewRomanPSMT-1505"/>
      <use x="92.919922" xlink:href="#TimesNewRomanPSMT-1499"/>
     </g>
    </g>
-   <g id="text_43">
+   <g id="text_45">
     <!-- בהז -->
     <defs>
      <path d="M 24.90625 41.21875 
@@ -1359,55 +1394,55 @@ Q 25.34375 42.78125 24.90625 41.21875
 z
 " id="TimesNewRomanPSMT-1494"/>
     </defs>
-    <g transform="translate(110.216092 376.325091)scale(0.1 -0.1)">
+    <g transform="translate(112.282026 362.811053)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="45.507812" xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="92.626953" xlink:href="#TimesNewRomanPSMT-1494"/>
     </g>
    </g>
-   <g id="text_44">
+   <g id="text_46">
     <!-- חבזמ -->
-    <g transform="translate(104.632972 295.11189)scale(0.1 -0.1)">
+    <g transform="translate(109.827285 284.897677)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1495"/>
      <use x="47.65625" xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="93.164062" xlink:href="#TimesNewRomanPSMT-1494"/>
      <use x="121.777344" xlink:href="#TimesNewRomanPSMT-1502"/>
     </g>
    </g>
-   <g id="text_45">
+   <g id="text_47">
     <!-- ברח -->
-    <g transform="translate(160.933029 340.205744)scale(0.1 -0.1)">
+    <g transform="translate(166.984049 316.406368)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="45.507812" xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="92.382812" xlink:href="#TimesNewRomanPSMT-1495"/>
     </g>
    </g>
-   <g id="text_46">
+   <g id="text_48">
     <!-- חור -->
-    <g transform="translate(177.204821 294.238492)scale(0.1 -0.1)">
+    <g transform="translate(183.906786 285.944266)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1495"/>
      <use x="47.65625" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="75.537109" xlink:href="#TimesNewRomanPSMT-1512"/>
     </g>
    </g>
-   <g id="text_47">
+   <g id="text_49">
     <!-- םוקמ -->
-    <g transform="translate(124.084204 94.737657)scale(0.1 -0.1)">
+    <g transform="translate(136.620183 99.668204)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1501"/>
      <use x="50.732422" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="78.613281" xlink:href="#TimesNewRomanPSMT-1511"/>
      <use x="125.976562" xlink:href="#TimesNewRomanPSMT-1502"/>
     </g>
    </g>
-   <g id="text_48">
+   <g id="text_50">
     <!-- דוע -->
-    <g transform="translate(165.244154 314.912412)scale(0.1 -0.1)">
+    <g transform="translate(175.403866 301.327823)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1491"/>
      <use x="41.894531" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="69.775391" xlink:href="#TimesNewRomanPSMT-1506"/>
     </g>
    </g>
-   <g id="text_49">
+   <g id="text_51">
     <!-- ץע -->
     <defs>
      <path d="M 44.234375 40.828125 
@@ -1446,67 +1481,67 @@ Q 44.96875 43.5625 44.234375 40.828125
 z
 " id="TimesNewRomanPSMT-1509"/>
     </defs>
-    <g transform="translate(126.065784 359.94179)scale(0.1 -0.1)">
+    <g transform="translate(131.870632 337.105704)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1509"/>
      <use x="48.242188" xlink:href="#TimesNewRomanPSMT-1506"/>
     </g>
    </g>
-   <g id="text_50">
+   <g id="text_52">
     <!-- שא -->
-    <g transform="translate(170.471491 294.121717)scale(0.1 -0.1)">
+    <g transform="translate(183.181861 279.259781)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1513"/>
      <use x="61.035156" xlink:href="#TimesNewRomanPSMT-1488"/>
     </g>
    </g>
-   <g id="text_51">
+   <g id="text_53">
     <!-- םד -->
-    <g transform="translate(121.514131 314.823272)scale(0.1 -0.1)">
+    <g transform="translate(129.587352 300.689517)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1501"/>
      <use x="50.732422" xlink:href="#TimesNewRomanPSMT-1491"/>
     </g>
    </g>
-   <g id="text_52">
+   <g id="text_54">
     <!-- ךות -->
-    <g transform="translate(90.538316 92.539803)scale(0.1 -0.1)">
+    <g transform="translate(104.501201 103.36373)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1498"/>
      <use x="45.214844" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="73.095703" xlink:href="#TimesNewRomanPSMT-1514"/>
     </g>
    </g>
-   <g id="text_53">
+   <g id="text_55">
     <!-- הלע -->
-    <g transform="translate(119.116232 398.226728)scale(0.1 -0.1)">
+    <g transform="translate(121.167575 382.23041)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1500"/>
      <use x="90.283203" xlink:href="#TimesNewRomanPSMT-1506"/>
     </g>
    </g>
-   <g id="text_54">
+   <g id="text_56">
     <!-- ןבא -->
-    <g transform="translate(127.641109 358.242517)scale(0.1 -0.1)">
+    <g transform="translate(135.232875 339.417999)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1503"/>
      <use x="27.441406" xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="72.949219" xlink:href="#TimesNewRomanPSMT-1488"/>
     </g>
    </g>
-   <g id="text_55">
+   <g id="text_57">
     <!-- םחל -->
-    <g transform="translate(135.231394 337.561242)scale(0.1 -0.1)">
+    <g transform="translate(140.959286 315.094231)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1501"/>
      <use x="50.732422" xlink:href="#TimesNewRomanPSMT-1495"/>
      <use x="98.388672" xlink:href="#TimesNewRomanPSMT-1500"/>
     </g>
    </g>
-   <g id="text_56">
+   <g id="text_58">
     <!-- םימש -->
-    <g transform="translate(119.68496 223.161301)scale(0.1 -0.1)">
+    <g transform="translate(133.145602 230.779976)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1501"/>
      <use x="50.732422" xlink:href="#TimesNewRomanPSMT-1497"/>
      <use x="77.392578" xlink:href="#TimesNewRomanPSMT-1502"/>
      <use x="125.927734" xlink:href="#TimesNewRomanPSMT-1513"/>
     </g>
    </g>
-   <g id="text_57">
+   <g id="text_59">
     <!-- ןאצ -->
     <defs>
      <path d="M 41.453125 41.453125 
@@ -1546,183 +1581,183 @@ Q 42.1875 44 41.453125 41.453125
 z
 " id="TimesNewRomanPSMT-1510"/>
     </defs>
-    <g transform="translate(183.721431 336.533834)scale(0.1 -0.1)">
+    <g transform="translate(191.253931 329.110222)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1503"/>
      <use x="27.441406" xlink:href="#TimesNewRomanPSMT-1488"/>
      <use x="75.585938" xlink:href="#TimesNewRomanPSMT-1510"/>
     </g>
    </g>
-   <g id="text_58">
+   <g id="text_60">
     <!-- איבנ -->
-    <g transform="translate(278.07776 263.120232)scale(0.1 -0.1)">
+    <g transform="translate(277.506372 259.876722)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1488"/>
      <use x="48.144531" xlink:href="#TimesNewRomanPSMT-1497"/>
      <use x="74.804688" xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="120.3125" xlink:href="#TimesNewRomanPSMT-1504"/>
     </g>
    </g>
-   <g id="text_59">
+   <g id="text_61">
     <!-- םדא -->
-    <g transform="translate(228.745391 294.163238)scale(0.1 -0.1)">
+    <g transform="translate(235.924858 285.967739)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1501"/>
      <use x="50.732422" xlink:href="#TimesNewRomanPSMT-1491"/>
      <use x="92.626953" xlink:href="#TimesNewRomanPSMT-1488"/>
     </g>
    </g>
-   <g id="text_60">
+   <g id="text_62">
     <!-- םלוע -->
-    <g transform="translate(166.186839 313.155208)scale(0.1 -0.1)">
+    <g transform="translate(176.290767 303.413772)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1501"/>
      <use x="50.732422" xlink:href="#TimesNewRomanPSMT-1500"/>
      <use x="93.896484" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="121.777344" xlink:href="#TimesNewRomanPSMT-1506"/>
     </g>
    </g>
-   <g id="text_61">
+   <g id="text_63">
     <!-- ןודא -->
-    <g transform="translate(286.037493 254.276068)scale(0.1 -0.1)">
+    <g transform="translate(287.833407 247.483768)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1503"/>
      <use x="27.441406" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="55.322266" xlink:href="#TimesNewRomanPSMT-1491"/>
      <use x="97.216797" xlink:href="#TimesNewRomanPSMT-1488"/>
     </g>
    </g>
-   <g id="text_62">
+   <g id="text_64">
     <!-- דסח -->
-    <g transform="translate(121.217694 364.142196)scale(0.1 -0.1)">
+    <g transform="translate(125.766113 353.567739)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1491"/>
      <use x="41.894531" xlink:href="#TimesNewRomanPSMT-1505"/>
      <use x="89.404297" xlink:href="#TimesNewRomanPSMT-1495"/>
     </g>
    </g>
-   <g id="text_63">
+   <g id="text_65">
     <!-- דגב -->
-    <g transform="translate(161.770739 353.486412)scale(0.1 -0.1)">
+    <g transform="translate(170.629015 338.856941)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1491"/>
      <use x="41.894531" xlink:href="#TimesNewRomanPSMT-1490"/>
      <use x="75.439453" xlink:href="#TimesNewRomanPSMT-1489"/>
     </g>
    </g>
-   <g id="text_64">
+   <g id="text_66">
     <!-- הער -->
-    <g transform="translate(135.243851 387.700677)scale(0.1 -0.1)">
+    <g transform="translate(138.923274 370.669453)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1506"/>
      <use x="92.529297" xlink:href="#TimesNewRomanPSMT-1512"/>
     </g>
    </g>
-   <g id="text_65">
+   <g id="text_67">
     <!-- רענ -->
-    <g transform="translate(298.12694 295.938834)scale(0.1 -0.1)">
+    <g transform="translate(300.948413 287.210095)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="46.875" xlink:href="#TimesNewRomanPSMT-1506"/>
      <use x="92.285156" xlink:href="#TimesNewRomanPSMT-1504"/>
     </g>
    </g>
-   <g id="text_66">
+   <g id="text_68">
     <!-- רׂשב -->
-    <g transform="translate(152.368674 286.792117)scale(0.1 -0.1)">
+    <g transform="translate(158.240934 276.672475)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="46.875" xlink:href="#TimesNewRomanPSMT-1474"/>
      <use x="46.875" xlink:href="#TimesNewRomanPSMT-1513"/>
      <use x="107.910156" xlink:href="#TimesNewRomanPSMT-1489"/>
     </g>
    </g>
-   <g id="text_67">
+   <g id="text_69">
     <!-- החנמ -->
-    <g transform="translate(119.923489 417.560459)scale(0.1 -0.1)">
+    <g transform="translate(125.128923 391.505436)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1495"/>
      <use x="94.775391" xlink:href="#TimesNewRomanPSMT-1504"/>
      <use x="125.244141" xlink:href="#TimesNewRomanPSMT-1502"/>
     </g>
    </g>
-   <g id="text_68">
+   <g id="text_70">
     <!-- תאטח -->
-    <g transform="translate(130.488509 362.142887)scale(0.1 -0.1)">
+    <g transform="translate(129.814936 349.38534)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1514"/>
      <use x="50" xlink:href="#TimesNewRomanPSMT-1488"/>
      <use x="98.144531" xlink:href="#TimesNewRomanPSMT-1496"/>
      <use x="145.703125" xlink:href="#TimesNewRomanPSMT-1495"/>
     </g>
    </g>
-   <g id="text_69">
+   <g id="text_71">
     <!-- םי -->
-    <g transform="translate(129.563849 237.839894)scale(0.1 -0.1)">
+    <g transform="translate(140.785774 233.960621)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1501"/>
      <use x="50.732422" xlink:href="#TimesNewRomanPSMT-1497"/>
     </g>
    </g>
-   <g id="text_70">
+   <g id="text_72">
     <!-- ליא -->
-    <g transform="translate(156.113368 374.261955)scale(0.1 -0.1)">
+    <g transform="translate(166.796533 360.361155)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1500"/>
      <use x="43.164062" xlink:href="#TimesNewRomanPSMT-1497"/>
      <use x="69.824219" xlink:href="#TimesNewRomanPSMT-1488"/>
     </g>
    </g>
-   <g id="text_71">
+   <g id="text_73">
     <!-- להא -->
-    <g transform="translate(117.621976 159.145499)scale(0.1 -0.1)">
+    <g transform="translate(129.853893 162.478582)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1500"/>
      <use x="43.164062" xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="90.283203" xlink:href="#TimesNewRomanPSMT-1488"/>
     </g>
    </g>
-   <g id="text_72">
+   <g id="text_74">
     <!-- בבל -->
-    <g transform="translate(132.843312 296.933481)scale(0.1 -0.1)">
+    <g transform="translate(139.63706 289.540554)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="45.507812" xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="91.015625" xlink:href="#TimesNewRomanPSMT-1500"/>
     </g>
    </g>
-   <g id="text_73">
+   <g id="text_75">
     <!-- ערז -->
-    <g transform="translate(206.310101 298.746295)scale(0.1 -0.1)">
+    <g transform="translate(218.078248 285.427303)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1506"/>
      <use x="45.410156" xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="92.285156" xlink:href="#TimesNewRomanPSMT-1494"/>
     </g>
    </g>
-   <g id="text_74">
+   <g id="text_76">
     <!-- רבדמ -->
-    <g transform="translate(101.368252 133.024972)scale(0.1 -0.1)">
+    <g transform="translate(110.823056 125.532555)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="46.875" xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="92.382812" xlink:href="#TimesNewRomanPSMT-1491"/>
      <use x="134.277344" xlink:href="#TimesNewRomanPSMT-1502"/>
     </g>
    </g>
-   <g id="text_75">
+   <g id="text_77">
     <!-- רעש -->
-    <g transform="translate(129.704405 196.934188)scale(0.1 -0.1)">
+    <g transform="translate(143.578846 196.266892)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="46.875" xlink:href="#TimesNewRomanPSMT-1506"/>
      <use x="92.285156" xlink:href="#TimesNewRomanPSMT-1513"/>
     </g>
    </g>
-   <g id="text_76">
+   <g id="text_78">
     <!-- ביבס -->
-    <g transform="translate(155.187404 254.372192)scale(0.1 -0.1)">
+    <g transform="translate(163.360815 250.288887)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="45.507812" xlink:href="#TimesNewRomanPSMT-1497"/>
      <use x="72.167969" xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="117.675781" xlink:href="#TimesNewRomanPSMT-1505"/>
     </g>
    </g>
-   <g id="text_77">
+   <g id="text_79">
     <!-- הערפ -->
-    <g transform="translate(299.629495 245.146589)scale(0.1 -0.1)">
+    <g transform="translate(314.762381 229.737321)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1506"/>
      <use x="92.529297" xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="139.404297" xlink:href="#TimesNewRomanPSMT-1508"/>
     </g>
    </g>
-   <g id="text_78">
+   <g id="text_80">
     <!-- המחלמ -->
-    <g transform="translate(131.418117 303.096229)scale(0.1 -0.1)">
+    <g transform="translate(141.255037 290.08775)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1502"/>
      <use x="95.654297" xlink:href="#TimesNewRomanPSMT-1495"/>
@@ -1730,144 +1765,144 @@ z
      <use x="186.474609" xlink:href="#TimesNewRomanPSMT-1502"/>
     </g>
    </g>
-   <g id="text_79">
+   <g id="text_81">
     <!-- דאמ -->
-    <g transform="translate(167.633618 315.272223)scale(0.1 -0.1)">
+    <g transform="translate(178.204586 300.665307)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1491"/>
      <use x="41.894531" xlink:href="#TimesNewRomanPSMT-1488"/>
      <use x="90.039062" xlink:href="#TimesNewRomanPSMT-1502"/>
     </g>
    </g>
-   <g id="text_80">
+   <g id="text_82">
     <!-- ףא -->
-    <g transform="translate(156.540826 305.880883)scale(0.1 -0.1)">
+    <g transform="translate(166.703002 292.064836)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1507"/>
      <use x="45.410156" xlink:href="#TimesNewRomanPSMT-1488"/>
     </g>
    </g>
-   <g id="text_81">
+   <g id="text_83">
     <!-- הוצמ -->
-    <g transform="translate(111.778528 373.36495)scale(0.1 -0.1)">
+    <g transform="translate(114.896166 364.287499)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="75" xlink:href="#TimesNewRomanPSMT-1510"/>
      <use x="120.996094" xlink:href="#TimesNewRomanPSMT-1502"/>
     </g>
    </g>
-   <g id="text_82">
+   <g id="text_84">
     <!-- שרגמ -->
-    <g transform="translate(151.754516 281.496077)scale(0.1 -0.1)">
+    <g transform="translate(160.952696 259.138056)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1513"/>
      <use x="61.035156" xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="107.910156" xlink:href="#TimesNewRomanPSMT-1490"/>
      <use x="141.455078" xlink:href="#TimesNewRomanPSMT-1502"/>
     </g>
    </g>
-   <g id="text_83">
+   <g id="text_85">
     <!-- ןוע -->
-    <g transform="translate(150.437263 330.364018)scale(0.1 -0.1)">
+    <g transform="translate(155.372199 320.354789)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1503"/>
      <use x="27.441406" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="55.322266" xlink:href="#TimesNewRomanPSMT-1506"/>
     </g>
    </g>
-   <g id="text_84">
+   <g id="text_86">
     <!-- תירב -->
-    <g transform="translate(132.595748 331.571016)scale(0.1 -0.1)">
+    <g transform="translate(137.029821 323.383489)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1514"/>
      <use x="50" xlink:href="#TimesNewRomanPSMT-1497"/>
      <use x="76.660156" xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="123.535156" xlink:href="#TimesNewRomanPSMT-1489"/>
     </g>
    </g>
-   <g id="text_85">
+   <g id="text_87">
     <!-- םולש -->
-    <g transform="translate(146.756346 326.095535)scale(0.1 -0.1)">
+    <g transform="translate(156.529914 310.769522)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1501"/>
      <use x="50.732422" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="78.613281" xlink:href="#TimesNewRomanPSMT-1500"/>
      <use x="121.777344" xlink:href="#TimesNewRomanPSMT-1513"/>
     </g>
    </g>
-   <g id="text_86">
+   <g id="text_88">
     <!-- המהב -->
-    <g transform="translate(191.387075 300.630934)scale(0.1 -0.1)">
+    <g transform="translate(197.82869 290.869585)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1502"/>
      <use x="95.654297" xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="142.773438" xlink:href="#TimesNewRomanPSMT-1489"/>
     </g>
    </g>
-   <g id="text_87">
+   <g id="text_89">
     <!-- ךאלמ -->
-    <g transform="translate(285.066259 304.157788)scale(0.1 -0.1)">
+    <g transform="translate(293.526733 289.18366)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1498"/>
      <use x="45.214844" xlink:href="#TimesNewRomanPSMT-1488"/>
      <use x="93.359375" xlink:href="#TimesNewRomanPSMT-1500"/>
      <use x="136.523438" xlink:href="#TimesNewRomanPSMT-1502"/>
     </g>
    </g>
-   <g id="text_88">
+   <g id="text_90">
     <!-- תע -->
-    <g transform="translate(139.465529 348.853457)scale(0.1 -0.1)">
+    <g transform="translate(147.026126 353.013935)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1514"/>
      <use x="50" xlink:href="#TimesNewRomanPSMT-1506"/>
     </g>
    </g>
-   <g id="text_89">
+   <g id="text_91">
     <!-- הליל -->
-    <g transform="translate(146.565421 332.854808)scale(0.1 -0.1)">
+    <g transform="translate(157.059591 331.347052)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1500"/>
      <use x="90.283203" xlink:href="#TimesNewRomanPSMT-1497"/>
      <use x="116.943359" xlink:href="#TimesNewRomanPSMT-1500"/>
     </g>
    </g>
-   <g id="text_90">
+   <g id="text_92">
     <!-- לובג -->
-    <g transform="translate(177.218432 262.878037)scale(0.1 -0.1)">
+    <g transform="translate(189.078015 252.654678)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1500"/>
      <use x="43.164062" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="71.044922" xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="116.552734" xlink:href="#TimesNewRomanPSMT-1490"/>
     </g>
    </g>
-   <g id="text_91">
+   <g id="text_93">
     <!-- רקב -->
-    <g transform="translate(169.023074 353.279272)scale(0.1 -0.1)">
+    <g transform="translate(174.191862 338.670857)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="46.875" xlink:href="#TimesNewRomanPSMT-1511"/>
      <use x="94.238281" xlink:href="#TimesNewRomanPSMT-1489"/>
     </g>
    </g>
-   <g id="text_92">
+   <g id="text_94">
     <!-- דובכ -->
-    <g transform="translate(144.426917 284.030018)scale(0.1 -0.1)">
+    <g transform="translate(154.456895 272.656784)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1491"/>
      <use x="41.894531" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="69.775391" xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="115.283203" xlink:href="#TimesNewRomanPSMT-1499"/>
     </g>
    </g>
-   <g id="text_93">
+   <g id="text_95">
     <!-- רפ -->
-    <g transform="translate(154.499048 392.390956)scale(0.1 -0.1)">
+    <g transform="translate(164.718132 372.445582)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="46.875" xlink:href="#TimesNewRomanPSMT-1508"/>
     </g>
    </g>
-   <g id="text_94">
+   <g id="text_96">
     <!-- הדׂש -->
-    <g transform="translate(135.587629 201.349772)scale(0.1 -0.1)">
+    <g transform="translate(148.59985 200.616725)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1491"/>
      <use x="89.013672" xlink:href="#TimesNewRomanPSMT-1474"/>
      <use x="89.013672" xlink:href="#TimesNewRomanPSMT-1513"/>
     </g>
    </g>
-   <g id="text_95">
+   <g id="text_97">
     <!-- הׂשעמ -->
-    <g transform="translate(138.499523 338.787549)scale(0.1 -0.1)">
+    <g transform="translate(144.20107 328.387324)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1474"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1513"/>
@@ -1875,236 +1910,236 @@ z
      <use x="153.564453" xlink:href="#TimesNewRomanPSMT-1502"/>
     </g>
    </g>
-   <g id="text_96">
+   <g id="text_98">
     <!-- לא -->
-    <g transform="translate(201.165569 287.035743)scale(0.1 -0.1)">
+    <g transform="translate(208.415173 276.439701)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1500"/>
      <use x="43.164062" xlink:href="#TimesNewRomanPSMT-1488"/>
     </g>
    </g>
-   <g id="text_97">
+   <g id="text_99">
     <!-- המא -->
-    <g transform="translate(165.483533 311.839637)scale(0.1 -0.1)">
+    <g transform="translate(176.035098 297.838272)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1502"/>
      <use x="95.654297" xlink:href="#TimesNewRomanPSMT-1488"/>
     </g>
    </g>
-   <g id="text_98">
+   <g id="text_100">
     <!-- ברק -->
-    <g transform="translate(122.854195 178.27512)scale(0.1 -0.1)">
+    <g transform="translate(134.170717 164.436507)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="45.507812" xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="92.382812" xlink:href="#TimesNewRomanPSMT-1511"/>
     </g>
    </g>
-   <g id="text_99">
+   <g id="text_101">
     <!-- םא -->
-    <g transform="translate(248.258471 282.939016)scale(0.1 -0.1)">
+    <g transform="translate(253.933491 278.220218)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1501"/>
      <use x="50.732422" xlink:href="#TimesNewRomanPSMT-1488"/>
     </g>
    </g>
-   <g id="text_100">
+   <g id="text_102">
     <!-- רוד -->
-    <g transform="translate(196.929077 300.563533)scale(0.1 -0.1)">
+    <g transform="translate(199.631779 291.079633)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="46.875" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="74.755859" xlink:href="#TimesNewRomanPSMT-1491"/>
     </g>
    </g>
-   <g id="text_101">
+   <g id="text_103">
     <!-- הטמ -->
-    <g transform="translate(174.024889 322.732504)scale(0.1 -0.1)">
+    <g transform="translate(184.77635 305.343767)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1496"/>
      <use x="94.677734" xlink:href="#TimesNewRomanPSMT-1502"/>
     </g>
    </g>
-   <g id="text_102">
+   <g id="text_104">
     <!-- רקב -->
-    <g transform="translate(159.006084 330.325178)scale(0.1 -0.1)">
+    <g transform="translate(168.783308 322.820923)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="46.875" xlink:href="#TimesNewRomanPSMT-1511"/>
      <use x="94.238281" xlink:href="#TimesNewRomanPSMT-1489"/>
     </g>
    </g>
-   <g id="text_103">
+   <g id="text_105">
     <!-- ןורא -->
-    <g transform="translate(165.5101 351.271255)scale(0.1 -0.1)">
+    <g transform="translate(170.031418 335.527232)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1503"/>
      <use x="27.441406" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="55.322266" xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="102.197266" xlink:href="#TimesNewRomanPSMT-1488"/>
     </g>
    </g>
-   <g id="text_104">
+   <g id="text_106">
     <!-- לגר -->
-    <g transform="translate(150.205308 309.575125)scale(0.1 -0.1)">
+    <g transform="translate(158.038858 298.298791)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1500"/>
      <use x="43.164062" xlink:href="#TimesNewRomanPSMT-1490"/>
      <use x="76.708984" xlink:href="#TimesNewRomanPSMT-1512"/>
     </g>
    </g>
-   <g id="text_105">
+   <g id="text_107">
     <!-- ףכ -->
-    <g transform="translate(131.059596 304.33199)scale(0.1 -0.1)">
+    <g transform="translate(142.11722 290.657961)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1507"/>
      <use x="45.410156" xlink:href="#TimesNewRomanPSMT-1499"/>
     </g>
    </g>
-   <g id="text_106">
+   <g id="text_108">
     <!-- טבש -->
-    <g transform="translate(207.787755 289.047842)scale(0.1 -0.1)">
+    <g transform="translate(224.480056 281.688431)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1496"/>
      <use x="47.558594" xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="93.066406" xlink:href="#TimesNewRomanPSMT-1513"/>
     </g>
    </g>
-   <g id="text_107">
+   <g id="text_109">
     <!-- הרות -->
-    <g transform="translate(117.474216 371.186412)scale(0.1 -0.1)">
+    <g transform="translate(118.79751 362.408405)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="93.994141" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="121.875" xlink:href="#TimesNewRomanPSMT-1514"/>
     </g>
    </g>
-   <g id="text_108">
+   <g id="text_110">
     <!-- ןזא -->
-    <g transform="translate(158.810601 303.791484)scale(0.1 -0.1)">
+    <g transform="translate(167.342694 292.167394)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1503"/>
      <use x="27.441406" xlink:href="#TimesNewRomanPSMT-1494"/>
      <use x="56.054688" xlink:href="#TimesNewRomanPSMT-1488"/>
     </g>
    </g>
-   <g id="text_109">
+   <g id="text_111">
     <!-- רצח -->
-    <g transform="translate(125.509179 209.571294)scale(0.1 -0.1)">
+    <g transform="translate(140.450865 197.772403)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="46.875" xlink:href="#TimesNewRomanPSMT-1510"/>
      <use x="92.871094" xlink:href="#TimesNewRomanPSMT-1495"/>
     </g>
    </g>
-   <g id="text_110">
+   <g id="text_112">
     <!-- שדק -->
-    <g transform="translate(130.665594 289.063289)scale(0.1 -0.1)">
+    <g transform="translate(141.478964 276.092554)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1513"/>
      <use x="61.035156" xlink:href="#TimesNewRomanPSMT-1491"/>
      <use x="102.929688" xlink:href="#TimesNewRomanPSMT-1511"/>
     </g>
    </g>
-   <g id="text_111">
+   <g id="text_113">
     <!-- קח -->
-    <g transform="translate(116.772325 370.482774)scale(0.1 -0.1)">
+    <g transform="translate(121.837025 357.597533)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1511"/>
      <use x="47.363281" xlink:href="#TimesNewRomanPSMT-1495"/>
     </g>
    </g>
-   <g id="text_112">
+   <g id="text_114">
     <!-- הלחנ -->
-    <g transform="translate(166.16474 255.182245)scale(0.1 -0.1)">
+    <g transform="translate(177.481529 247.82749)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1500"/>
      <use x="90.283203" xlink:href="#TimesNewRomanPSMT-1495"/>
      <use x="137.939453" xlink:href="#TimesNewRomanPSMT-1504"/>
     </g>
    </g>
-   <g id="text_113">
+   <g id="text_115">
     <!-- ליח -->
-    <g transform="translate(170.649796 324.431235)scale(0.1 -0.1)">
+    <g transform="translate(179.813847 308.575344)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1500"/>
      <use x="43.164062" xlink:href="#TimesNewRomanPSMT-1497"/>
      <use x="69.824219" xlink:href="#TimesNewRomanPSMT-1495"/>
     </g>
    </g>
-   <g id="text_114">
+   <g id="text_116">
     <!-- בלח -->
-    <g transform="translate(140.666255 370.624468)scale(0.1 -0.1)">
+    <g transform="translate(145.46892 354.079367)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="45.507812" xlink:href="#TimesNewRomanPSMT-1500"/>
      <use x="88.671875" xlink:href="#TimesNewRomanPSMT-1495"/>
     </g>
    </g>
-   <g id="text_115">
+   <g id="text_117">
     <!-- המכח -->
-    <g transform="translate(137.002097 322.400292)scale(0.1 -0.1)">
+    <g transform="translate(147.40484 305.426813)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1502"/>
      <use x="95.654297" xlink:href="#TimesNewRomanPSMT-1499"/>
      <use x="138.916016" xlink:href="#TimesNewRomanPSMT-1495"/>
     </g>
    </g>
-   <g id="text_116">
+   <g id="text_118">
     <!-- הקדצ -->
-    <g transform="translate(142.462575 349.04798)scale(0.1 -0.1)">
+    <g transform="translate(149.586926 335.777129)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1511"/>
      <use x="94.482422" xlink:href="#TimesNewRomanPSMT-1491"/>
      <use x="136.376953" xlink:href="#TimesNewRomanPSMT-1510"/>
     </g>
    </g>
-   <g id="text_117">
+   <g id="text_119">
     <!-- ׂשבכ -->
-    <g transform="translate(145.707231 394.153801)scale(0.1 -0.1)">
+    <g transform="translate(149.627693 369.634543)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1474"/>
      <use xlink:href="#TimesNewRomanPSMT-1513"/>
      <use x="61.035156" xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="106.542969" xlink:href="#TimesNewRomanPSMT-1499"/>
     </g>
    </g>
-   <g id="text_118">
+   <g id="text_120">
     <!-- סוס -->
-    <g transform="translate(168.70022 311.089117)scale(0.1 -0.1)">
+    <g transform="translate(175.254306 300.279477)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1505"/>
      <use x="47.509766" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="75.390625" xlink:href="#TimesNewRomanPSMT-1505"/>
     </g>
    </g>
-   <g id="text_119">
+   <g id="text_121">
     <!-- חבז -->
-    <g transform="translate(135.474405 377.94797)scale(0.1 -0.1)">
+    <g transform="translate(144.361601 353.219582)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1495"/>
      <use x="47.65625" xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="93.164062" xlink:href="#TimesNewRomanPSMT-1494"/>
     </g>
    </g>
-   <g id="text_120">
+   <g id="text_122">
     <!-- הנחמ -->
-    <g transform="translate(167.609922 182.836665)scale(0.1 -0.1)">
+    <g transform="translate(180.539749 178.135947)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1504"/>
      <use x="77.587891" xlink:href="#TimesNewRomanPSMT-1495"/>
      <use x="125.244141" xlink:href="#TimesNewRomanPSMT-1502"/>
     </g>
    </g>
-   <g id="text_121">
+   <g id="text_123">
     <!-- בכר -->
-    <g transform="translate(190.649265 300.167507)scale(0.1 -0.1)">
+    <g transform="translate(194.845449 287.835202)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="45.507812" xlink:href="#TimesNewRomanPSMT-1499"/>
      <use x="88.769531" xlink:href="#TimesNewRomanPSMT-1512"/>
     </g>
    </g>
-   <g id="text_122">
+   <g id="text_124">
     <!-- ןיי -->
-    <g transform="translate(166.566678 329.75758)scale(0.1 -0.1)">
+    <g transform="translate(174.619749 312.738272)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1503"/>
      <use x="27.441406" xlink:href="#TimesNewRomanPSMT-1497"/>
      <use x="54.101562" xlink:href="#TimesNewRomanPSMT-1497"/>
     </g>
    </g>
-   <g id="text_123">
+   <g id="text_125">
     <!-- המח -->
-    <g transform="translate(167.006951 331.191492)scale(0.1 -0.1)">
+    <g transform="translate(174.680608 314.727639)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1502"/>
      <use x="95.654297" xlink:href="#TimesNewRomanPSMT-1495"/>
     </g>
    </g>
-   <g id="text_124">
+   <g id="text_126">
     <!-- איׂשנ -->
-    <g transform="translate(248.898799 324.447793)scale(0.1 -0.1)">
+    <g transform="translate(257.415004 308.234778)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1488"/>
      <use x="48.144531" xlink:href="#TimesNewRomanPSMT-1497"/>
      <use x="74.804688" xlink:href="#TimesNewRomanPSMT-1474"/>
@@ -2112,206 +2147,206 @@ z
      <use x="135.839844" xlink:href="#TimesNewRomanPSMT-1504"/>
     </g>
    </g>
-   <g id="text_125">
+   <g id="text_127">
     <!-- ירפ -->
-    <g transform="translate(138.827847 333.199865)scale(0.1 -0.1)">
+    <g transform="translate(150.745862 310.949543)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1497"/>
      <use x="26.660156" xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="73.535156" xlink:href="#TimesNewRomanPSMT-1508"/>
     </g>
    </g>
-   <g id="text_126">
+   <g id="text_128">
     <!-- עורז -->
-    <g transform="translate(160.220842 316.437163)scale(0.1 -0.1)">
+    <g transform="translate(164.950537 306.090766)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1506"/>
      <use x="45.410156" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="73.291016" xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="120.166016" xlink:href="#TimesNewRomanPSMT-1494"/>
     </g>
    </g>
-   <g id="text_127">
+   <g id="text_129">
     <!-- ןמש -->
-    <g transform="translate(154.17592 348.133913)scale(0.1 -0.1)">
+    <g transform="translate(160.780865 323.980032)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1503"/>
      <use x="27.441406" xlink:href="#TimesNewRomanPSMT-1502"/>
      <use x="75.976562" xlink:href="#TimesNewRomanPSMT-1513"/>
     </g>
    </g>
-   <g id="text_128">
+   <g id="text_130">
     <!-- ץוח -->
-    <g transform="translate(137.780146 231.920334)scale(0.1 -0.1)">
+    <g transform="translate(152.173969 222.862166)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1509"/>
      <use x="48.242188" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="76.123047" xlink:href="#TimesNewRomanPSMT-1495"/>
     </g>
    </g>
-   <g id="text_129">
+   <g id="text_131">
     <!-- תמא -->
-    <g transform="translate(135.258863 351.941476)scale(0.1 -0.1)">
+    <g transform="translate(145.507473 333.366381)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1514"/>
      <use x="50" xlink:href="#TimesNewRomanPSMT-1502"/>
      <use x="98.535156" xlink:href="#TimesNewRomanPSMT-1488"/>
     </g>
    </g>
-   <g id="text_130">
+   <g id="text_132">
     <!-- לעב -->
-    <g transform="translate(201.266579 289.865222)scale(0.1 -0.1)">
+    <g transform="translate(206.35322 280.829726)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1500"/>
      <use x="43.164062" xlink:href="#TimesNewRomanPSMT-1506"/>
      <use x="88.574219" xlink:href="#TimesNewRomanPSMT-1489"/>
     </g>
    </g>
-   <g id="text_131">
+   <g id="text_133">
     <!-- הדע -->
-    <g transform="translate(259.094133 294.798093)scale(0.1 -0.1)">
+    <g transform="translate(267.852038 282.474789)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1491"/>
      <use x="89.013672" xlink:href="#TimesNewRomanPSMT-1506"/>
     </g>
    </g>
-   <g id="text_132">
+   <g id="text_134">
     <!-- המדא -->
-    <g transform="translate(166.460015 215.577685)scale(0.1 -0.1)">
+    <g transform="translate(176.549649 209.356302)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1502"/>
      <use x="95.654297" xlink:href="#TimesNewRomanPSMT-1491"/>
      <use x="137.548828" xlink:href="#TimesNewRomanPSMT-1488"/>
     </g>
    </g>
-   <g id="text_133">
+   <g id="text_135">
     <!-- הקח -->
-    <g transform="translate(130.540561 357.537717)scale(0.1 -0.1)">
+    <g transform="translate(134.95775 345.78123)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1511"/>
      <use x="94.482422" xlink:href="#TimesNewRomanPSMT-1495"/>
     </g>
    </g>
-   <g id="text_134">
+   <g id="text_136">
     <!-- ןימי -->
-    <g transform="translate(157.572514 298.62825)scale(0.1 -0.1)">
+    <g transform="translate(167.960166 287.783974)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1503"/>
      <use x="27.441406" xlink:href="#TimesNewRomanPSMT-1497"/>
      <use x="54.101562" xlink:href="#TimesNewRomanPSMT-1502"/>
      <use x="102.636719" xlink:href="#TimesNewRomanPSMT-1497"/>
     </g>
    </g>
-   <g id="text_135">
+   <g id="text_137">
     <!-- שדח -->
-    <g transform="translate(140.838754 343.165851)scale(0.1 -0.1)">
+    <g transform="translate(148.546532 339.454123)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1513"/>
      <use x="61.035156" xlink:href="#TimesNewRomanPSMT-1491"/>
      <use x="102.929688" xlink:href="#TimesNewRomanPSMT-1495"/>
     </g>
    </g>
-   <g id="text_136">
+   <g id="text_138">
     <!-- רג -->
-    <g transform="translate(225.306863 312.721467)scale(0.1 -0.1)">
+    <g transform="translate(238.980611 301.821563)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="46.875" xlink:href="#TimesNewRomanPSMT-1490"/>
     </g>
    </g>
-   <g id="text_137">
+   <g id="text_139">
     <!-- בער -->
-    <g transform="translate(169.155058 317.580133)scale(0.1 -0.1)">
+    <g transform="translate(176.978018 302.432755)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="45.507812" xlink:href="#TimesNewRomanPSMT-1506"/>
      <use x="90.917969" xlink:href="#TimesNewRomanPSMT-1512"/>
     </g>
    </g>
-   <g id="text_138">
+   <g id="text_140">
     <!-- אבצ -->
-    <g transform="translate(177.119049 291.559472)scale(0.1 -0.1)">
+    <g transform="translate(187.591286 279.292649)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1488"/>
      <use x="48.144531" xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="93.652344" xlink:href="#TimesNewRomanPSMT-1510"/>
     </g>
    </g>
-   <g id="text_139">
+   <g id="text_141">
     <!-- המוח -->
-    <g transform="translate(146.680791 242.575208)scale(0.1 -0.1)">
+    <g transform="translate(159.443807 238.368356)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1502"/>
      <use x="95.654297" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="123.535156" xlink:href="#TimesNewRomanPSMT-1495"/>
     </g>
    </g>
-   <g id="text_140">
+   <g id="text_142">
     <!-- שמש -->
-    <g transform="translate(196.256071 306.162414)scale(0.1 -0.1)">
+    <g transform="translate(207.940001 293.742992)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1513"/>
      <use x="61.035156" xlink:href="#TimesNewRomanPSMT-1502"/>
      <use x="109.570312" xlink:href="#TimesNewRomanPSMT-1513"/>
     </g>
    </g>
-   <g id="text_141">
+   <g id="text_143">
     <!-- להק -->
-    <g transform="translate(220.923051 289.95616)scale(0.1 -0.1)">
+    <g transform="translate(224.61098 281.172457)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1500"/>
      <use x="43.164062" xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="90.283203" xlink:href="#TimesNewRomanPSMT-1511"/>
     </g>
    </g>
-   <g id="text_142">
+   <g id="text_144">
     <!-- רובג -->
-    <g transform="translate(227.38195 295.271975)scale(0.1 -0.1)">
+    <g transform="translate(239.106512 286.553459)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="46.875" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="74.755859" xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="120.263672" xlink:href="#TimesNewRomanPSMT-1490"/>
     </g>
    </g>
-   <g id="text_143">
+   <g id="text_145">
     <!-- היח -->
-    <g transform="translate(192.719642 313.585493)scale(0.1 -0.1)">
+    <g transform="translate(197.308525 301.084547)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1497"/>
      <use x="73.779297" xlink:href="#TimesNewRomanPSMT-1495"/>
     </g>
    </g>
-   <g id="text_144">
+   <g id="text_146">
     <!-- דב -->
-    <g transform="translate(126.769685 355.389054)scale(0.1 -0.1)">
+    <g transform="translate(135.74074 336.081727)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1491"/>
      <use x="41.894531" xlink:href="#TimesNewRomanPSMT-1489"/>
     </g>
    </g>
-   <g id="text_145">
+   <g id="text_147">
     <!-- רומח -->
-    <g transform="translate(189.010742 328.620974)scale(0.1 -0.1)">
+    <g transform="translate(199.717995 315.848023)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="46.875" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="74.755859" xlink:href="#TimesNewRomanPSMT-1502"/>
      <use x="123.291016" xlink:href="#TimesNewRomanPSMT-1495"/>
     </g>
    </g>
-   <g id="text_146">
+   <g id="text_148">
     <!-- חתפ -->
-    <g transform="translate(153.544015 223.859455)scale(0.1 -0.1)">
+    <g transform="translate(165.30699 217.972193)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1495"/>
      <use x="47.65625" xlink:href="#TimesNewRomanPSMT-1514"/>
      <use x="97.65625" xlink:href="#TimesNewRomanPSMT-1508"/>
     </g>
    </g>
-   <g id="text_147">
+   <g id="text_149">
     <!-- רכב -->
-    <g transform="translate(209.402229 321.437323)scale(0.1 -0.1)">
+    <g transform="translate(220.538102 304.445724)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="46.875" xlink:href="#TimesNewRomanPSMT-1499"/>
      <use x="90.136719" xlink:href="#TimesNewRomanPSMT-1489"/>
     </g>
    </g>
-   <g id="text_148">
+   <g id="text_150">
     <!-- הדבע -->
-    <g transform="translate(157.959501 318.672703)scale(0.1 -0.1)">
+    <g transform="translate(165.674758 304.757477)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1491"/>
      <use x="89.013672" xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="134.521484" xlink:href="#TimesNewRomanPSMT-1506"/>
     </g>
    </g>
-   <g id="text_149">
+   <g id="text_151">
     <!-- החמׂש -->
-    <g transform="translate(159.492736 330.265177)scale(0.1 -0.1)">
+    <g transform="translate(168.536672 314.526729)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1495"/>
      <use x="94.775391" xlink:href="#TimesNewRomanPSMT-1502"/>
@@ -2319,88 +2354,88 @@ z
      <use x="143.310547" xlink:href="#TimesNewRomanPSMT-1513"/>
     </g>
    </g>
-   <g id="text_150">
+   <g id="text_152">
     <!-- רוא -->
-    <g transform="translate(159.255228 307.464151)scale(0.1 -0.1)">
+    <g transform="translate(167.537417 293.134318)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="46.875" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="74.755859" xlink:href="#TimesNewRomanPSMT-1488"/>
     </g>
    </g>
-   <g id="text_151">
+   <g id="text_153">
     <!-- ער -->
-    <g transform="translate(220.718614 290.367047)scale(0.1 -0.1)">
+    <g transform="translate(229.734762 283.48736)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1506"/>
      <use x="45.410156" xlink:href="#TimesNewRomanPSMT-1512"/>
     </g>
    </g>
-   <g id="text_152">
+   <g id="text_154">
     <!-- חכ -->
-    <g transform="translate(150.72525 331.770035)scale(0.1 -0.1)">
+    <g transform="translate(157.021785 317.396743)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1495"/>
      <use x="47.65625" xlink:href="#TimesNewRomanPSMT-1499"/>
     </g>
    </g>
-   <g id="text_153">
+   <g id="text_155">
     <!-- םצע -->
-    <g transform="translate(167.291265 326.047625)scale(0.1 -0.1)">
+    <g transform="translate(178.229612 305.887348)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1501"/>
      <use x="50.732422" xlink:href="#TimesNewRomanPSMT-1510"/>
      <use x="96.728516" xlink:href="#TimesNewRomanPSMT-1506"/>
     </g>
    </g>
-   <g id="text_154">
+   <g id="text_156">
     <!-- רפס -->
-    <g transform="translate(144.674983 356.138944)scale(0.1 -0.1)">
+    <g transform="translate(155.772556 332.142099)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="46.875" xlink:href="#TimesNewRomanPSMT-1508"/>
      <use x="90.917969" xlink:href="#TimesNewRomanPSMT-1505"/>
     </g>
    </g>
-   <g id="text_155">
+   <g id="text_157">
     <!-- דומע -->
-    <g transform="translate(147.878012 330.235271)scale(0.1 -0.1)">
+    <g transform="translate(156.051704 315.485311)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1491"/>
      <use x="41.894531" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="69.775391" xlink:href="#TimesNewRomanPSMT-1502"/>
      <use x="118.310547" xlink:href="#TimesNewRomanPSMT-1506"/>
     </g>
    </g>
-   <g id="text_156">
+   <g id="text_158">
     <!-- ברע -->
-    <g transform="translate(162.280078 323.144626)scale(0.1 -0.1)">
+    <g transform="translate(173.038082 312.063756)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="45.507812" xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="92.382812" xlink:href="#TimesNewRomanPSMT-1506"/>
     </g>
    </g>
-   <g id="text_157">
+   <g id="text_159">
     <!-- רפע -->
-    <g transform="translate(148.955376 295.030081)scale(0.1 -0.1)">
+    <g transform="translate(160.506209 280.220268)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="46.875" xlink:href="#TimesNewRomanPSMT-1508"/>
      <use x="90.917969" xlink:href="#TimesNewRomanPSMT-1506"/>
     </g>
    </g>
-   <g id="text_158">
+   <g id="text_160">
     <!-- םרכ -->
-    <g transform="translate(150.039568 277.186532)scale(0.1 -0.1)">
+    <g transform="translate(159.699343 262.001629)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1501"/>
      <use x="50.732422" xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="97.607422" xlink:href="#TimesNewRomanPSMT-1499"/>
     </g>
    </g>
-   <g id="text_159">
+   <g id="text_161">
     <!-- אסכ -->
-    <g transform="translate(144.988452 299.746959)scale(0.1 -0.1)">
+    <g transform="translate(157.45184 284.71215)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1488"/>
      <use x="48.144531" xlink:href="#TimesNewRomanPSMT-1505"/>
      <use x="95.654297" xlink:href="#TimesNewRomanPSMT-1499"/>
     </g>
    </g>
-   <g id="text_160">
+   <g id="text_162">
     <!-- הבעות -->
-    <g transform="translate(132.493848 352.825457)scale(0.1 -0.1)">
+    <g transform="translate(140.906672 337.050158)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="92.626953" xlink:href="#TimesNewRomanPSMT-1506"/>
@@ -2408,184 +2443,184 @@ z
      <use x="165.917969" xlink:href="#TimesNewRomanPSMT-1514"/>
     </g>
    </g>
-   <g id="text_161">
+   <g id="text_163">
     <!-- תלד -->
-    <g transform="translate(155.3671 305.555963)scale(0.1 -0.1)">
+    <g transform="translate(166.284461 288.434641)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1514"/>
      <use x="50" xlink:href="#TimesNewRomanPSMT-1500"/>
      <use x="93.164062" xlink:href="#TimesNewRomanPSMT-1491"/>
     </g>
    </g>
-   <g id="text_162">
+   <g id="text_164">
     <!-- תוחא -->
-    <g transform="translate(193.899243 314.788243)scale(0.1 -0.1)">
+    <g transform="translate(209.247131 304.982703)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1514"/>
      <use x="50" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="77.880859" xlink:href="#TimesNewRomanPSMT-1495"/>
      <use x="125.537109" xlink:href="#TimesNewRomanPSMT-1488"/>
     </g>
    </g>
-   <g id="text_163">
+   <g id="text_165">
     <!-- רוע -->
-    <g transform="translate(159.556004 319.434185)scale(0.1 -0.1)">
+    <g transform="translate(166.520148 309.80862)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="46.875" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="74.755859" xlink:href="#TimesNewRomanPSMT-1506"/>
     </g>
    </g>
-   <g id="text_164">
+   <g id="text_166">
     <!-- לחנ -->
-    <g transform="translate(163.245723 273.397381)scale(0.1 -0.1)">
+    <g transform="translate(173.041035 263.903065)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1500"/>
      <use x="43.164062" xlink:href="#TimesNewRomanPSMT-1495"/>
      <use x="90.820312" xlink:href="#TimesNewRomanPSMT-1504"/>
     </g>
    </g>
-   <g id="text_165">
+   <g id="text_167">
     <!-- הפׂש -->
-    <g transform="translate(170.999067 300.279017)scale(0.1 -0.1)">
+    <g transform="translate(181.753175 289.560887)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1508"/>
      <use x="91.162109" xlink:href="#TimesNewRomanPSMT-1474"/>
      <use x="91.162109" xlink:href="#TimesNewRomanPSMT-1513"/>
     </g>
    </g>
-   <g id="text_166">
+   <g id="text_168">
     <!-- םעפ -->
-    <g transform="translate(164.850417 316.834948)scale(0.1 -0.1)">
+    <g transform="translate(175.994998 302.60596)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1501"/>
      <use x="50.732422" xlink:href="#TimesNewRomanPSMT-1506"/>
      <use x="96.142578" xlink:href="#TimesNewRomanPSMT-1508"/>
     </g>
    </g>
-   <g id="text_167">
+   <g id="text_169">
     <!-- ןושל -->
-    <g transform="translate(178.386646 319.064177)scale(0.1 -0.1)">
+    <g transform="translate(186.189385 303.913183)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1503"/>
      <use x="27.441406" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="55.322266" xlink:href="#TimesNewRomanPSMT-1513"/>
      <use x="116.357422" xlink:href="#TimesNewRomanPSMT-1500"/>
     </g>
    </g>
-   <g id="text_168">
+   <g id="text_170">
     <!-- המב -->
-    <g transform="translate(142.472835 287.914406)scale(0.1 -0.1)">
+    <g transform="translate(151.827565 275.56314)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1502"/>
      <use x="95.654297" xlink:href="#TimesNewRomanPSMT-1489"/>
     </g>
    </g>
-   <g id="text_169">
+   <g id="text_171">
     <!-- תומ -->
-    <g transform="translate(164.253268 323.616216)scale(0.1 -0.1)">
+    <g transform="translate(173.748538 309.329419)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1514"/>
      <use x="50" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="77.880859" xlink:href="#TimesNewRomanPSMT-1502"/>
     </g>
    </g>
-   <g id="text_170">
+   <g id="text_172">
     <!-- דלי -->
-    <g transform="translate(200.582816 327.537643)scale(0.1 -0.1)">
+    <g transform="translate(216.526767 313.57705)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1491"/>
      <use x="41.894531" xlink:href="#TimesNewRomanPSMT-1500"/>
      <use x="85.058594" xlink:href="#TimesNewRomanPSMT-1497"/>
     </g>
    </g>
-   <g id="text_171">
+   <g id="text_173">
     <!-- קדצ -->
-    <g transform="translate(156.366073 334.477341)scale(0.1 -0.1)">
+    <g transform="translate(164.833321 321.49524)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1511"/>
      <use x="47.363281" xlink:href="#TimesNewRomanPSMT-1491"/>
      <use x="89.257812" xlink:href="#TimesNewRomanPSMT-1510"/>
     </g>
    </g>
-   <g id="text_172">
+   <g id="text_174">
     <!-- תשחנ -->
-    <g transform="translate(137.541412 359.556978)scale(0.1 -0.1)">
+    <g transform="translate(145.407361 340.752792)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1514"/>
      <use x="50" xlink:href="#TimesNewRomanPSMT-1513"/>
      <use x="111.035156" xlink:href="#TimesNewRomanPSMT-1495"/>
      <use x="158.691406" xlink:href="#TimesNewRomanPSMT-1504"/>
     </g>
    </g>
-   <g id="text_173">
+   <g id="text_175">
     <!-- עשפ -->
-    <g transform="translate(151.856065 327.880481)scale(0.1 -0.1)">
+    <g transform="translate(161.877523 313.128645)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1506"/>
      <use x="45.410156" xlink:href="#TimesNewRomanPSMT-1513"/>
      <use x="106.445312" xlink:href="#TimesNewRomanPSMT-1508"/>
     </g>
    </g>
-   <g id="text_174">
+   <g id="text_176">
     <!-- ןכשמ -->
-    <g transform="translate(147.93431 291.641537)scale(0.1 -0.1)">
+    <g transform="translate(157.179561 282.048921)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1503"/>
      <use x="27.441406" xlink:href="#TimesNewRomanPSMT-1499"/>
      <use x="70.703125" xlink:href="#TimesNewRomanPSMT-1513"/>
      <use x="131.738281" xlink:href="#TimesNewRomanPSMT-1502"/>
     </g>
    </g>
-   <g id="text_175">
+   <g id="text_177">
     <!-- ןומה -->
-    <g transform="translate(175.568331 300.034617)scale(0.1 -0.1)">
+    <g transform="translate(186.474122 287.617155)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1503"/>
      <use x="27.441406" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="55.322266" xlink:href="#TimesNewRomanPSMT-1502"/>
      <use x="103.857422" xlink:href="#TimesNewRomanPSMT-1492"/>
     </g>
    </g>
-   <g id="text_176">
+   <g id="text_178">
     <!-- ךרא -->
-    <g transform="translate(162.573015 318.805125)scale(0.1 -0.1)">
+    <g transform="translate(172.934397 303.516194)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1498"/>
      <use x="45.214844" xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="92.089844" xlink:href="#TimesNewRomanPSMT-1488"/>
     </g>
    </g>
-   <g id="text_177">
+   <g id="text_179">
     <!-- דעומ -->
-    <g transform="translate(155.053094 326.400305)scale(0.1 -0.1)">
+    <g transform="translate(163.974508 314.999443)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1491"/>
      <use x="41.894531" xlink:href="#TimesNewRomanPSMT-1506"/>
      <use x="87.304688" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="115.185547" xlink:href="#TimesNewRomanPSMT-1502"/>
     </g>
    </g>
-   <g id="text_178">
+   <g id="text_180">
     <!-- רהנ -->
-    <g transform="translate(156.460626 277.630265)scale(0.1 -0.1)">
+    <g transform="translate(166.740548 265.649448)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="46.875" xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="93.994141" xlink:href="#TimesNewRomanPSMT-1504"/>
     </g>
    </g>
-   <g id="text_179">
+   <g id="text_181">
     <!-- תעד -->
-    <g transform="translate(157.296599 329.940175)scale(0.1 -0.1)">
+    <g transform="translate(168.239539 313.954543)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1514"/>
      <use x="50" xlink:href="#TimesNewRomanPSMT-1506"/>
      <use x="95.410156" xlink:href="#TimesNewRomanPSMT-1491"/>
     </g>
    </g>
-   <g id="text_180">
+   <g id="text_182">
     <!-- הצע -->
-    <g transform="translate(152.075318 333.957731)scale(0.1 -0.1)">
+    <g transform="translate(162.542522 316.499625)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1510"/>
      <use x="93.115234" xlink:href="#TimesNewRomanPSMT-1506"/>
     </g>
    </g>
-   <g id="text_181">
+   <g id="text_183">
     <!-- בחר -->
-    <g transform="translate(165.245971 317.536251)scale(0.1 -0.1)">
+    <g transform="translate(175.75322 302.518769)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="45.507812" xlink:href="#TimesNewRomanPSMT-1495"/>
      <use x="93.164062" xlink:href="#TimesNewRomanPSMT-1512"/>
     </g>
    </g>
-   <g id="text_182">
+   <g id="text_184">
     <!-- הכלממ -->
-    <g transform="translate(173.035834 285.139728)scale(0.1 -0.1)">
+    <g transform="translate(182.858301 273.272327)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1499"/>
      <use x="90.380859" xlink:href="#TimesNewRomanPSMT-1500"/>
@@ -2593,25 +2628,25 @@ z
      <use x="182.080078" xlink:href="#TimesNewRomanPSMT-1502"/>
     </g>
    </g>
-   <g id="text_183">
+   <g id="text_185">
     <!-- תבש -->
-    <g transform="translate(146.042489 335.612034)scale(0.1 -0.1)">
+    <g transform="translate(154.186411 323.999272)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1514"/>
      <use x="50" xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="95.507812" xlink:href="#TimesNewRomanPSMT-1513"/>
     </g>
    </g>
-   <g id="text_184">
+   <g id="text_186">
     <!-- ףנכ -->
-    <g transform="translate(147.625421 323.343002)scale(0.1 -0.1)">
+    <g transform="translate(159.226854 306.315032)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1507"/>
      <use x="45.410156" xlink:href="#TimesNewRomanPSMT-1504"/>
      <use x="75.878906" xlink:href="#TimesNewRomanPSMT-1499"/>
     </g>
    </g>
-   <g id="text_185">
+   <g id="text_187">
     <!-- הכאלמ -->
-    <g transform="translate(152.457447 338.035118)scale(0.1 -0.1)">
+    <g transform="translate(160.972913 324.814789)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1499"/>
      <use x="90.380859" xlink:href="#TimesNewRomanPSMT-1488"/>
@@ -2619,53 +2654,53 @@ z
      <use x="181.689453" xlink:href="#TimesNewRomanPSMT-1502"/>
     </g>
    </g>
-   <g id="text_186">
+   <g id="text_188">
     <!-- םייח -->
-    <g transform="translate(159.465008 320.119663)scale(0.1 -0.1)">
+    <g transform="translate(169.582309 305.768479)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1501"/>
      <use x="50.732422" xlink:href="#TimesNewRomanPSMT-1497"/>
      <use x="77.392578" xlink:href="#TimesNewRomanPSMT-1497"/>
      <use x="104.052734" xlink:href="#TimesNewRomanPSMT-1495"/>
     </g>
    </g>
-   <g id="text_187">
+   <g id="text_189">
     <!-- הארמ -->
-    <g transform="translate(164.822989 306.756025)scale(0.1 -0.1)">
+    <g transform="translate(174.952809 293.928075)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1488"/>
      <use x="95.263672" xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="142.138672" xlink:href="#TimesNewRomanPSMT-1502"/>
     </g>
    </g>
-   <g id="text_188">
+   <g id="text_190">
     <!-- בורכ -->
-    <g transform="translate(162.351381 336.600984)scale(0.1 -0.1)">
+    <g transform="translate(169.291907 324.387496)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="45.507812" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="73.388672" xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="120.263672" xlink:href="#TimesNewRomanPSMT-1499"/>
     </g>
    </g>
-   <g id="text_189">
+   <g id="text_191">
     <!-- תודע -->
-    <g transform="translate(135.911282 332.47563)scale(0.1 -0.1)">
+    <g transform="translate(139.187893 324.696109)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1514"/>
      <use x="50" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="77.880859" xlink:href="#TimesNewRomanPSMT-1491"/>
      <use x="119.775391" xlink:href="#TimesNewRomanPSMT-1506"/>
     </g>
    </g>
-   <g id="text_190">
+   <g id="text_192">
     <!-- ןנע -->
-    <g transform="translate(160.166514 301.790902)scale(0.1 -0.1)">
+    <g transform="translate(171.528312 290.702328)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1503"/>
      <use x="27.441406" xlink:href="#TimesNewRomanPSMT-1504"/>
      <use x="57.910156" xlink:href="#TimesNewRomanPSMT-1506"/>
     </g>
    </g>
-   <g id="text_191">
+   <g id="text_193">
     <!-- החפשמ -->
-    <g transform="translate(190.00374 309.180357)scale(0.1 -0.1)">
+    <g transform="translate(201.349458 295.921401)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1495"/>
      <use x="94.775391" xlink:href="#TimesNewRomanPSMT-1508"/>
@@ -2673,43 +2708,43 @@ z
      <use x="199.853516" xlink:href="#TimesNewRomanPSMT-1502"/>
     </g>
    </g>
-   <g id="text_192">
+   <g id="text_194">
     <!-- ןופצ -->
-    <g transform="translate(160.951197 280.740678)scale(0.1 -0.1)">
+    <g transform="translate(170.504106 268.256613)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1503"/>
      <use x="27.441406" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="55.322266" xlink:href="#TimesNewRomanPSMT-1508"/>
      <use x="99.365234" xlink:href="#TimesNewRomanPSMT-1510"/>
     </g>
    </g>
-   <g id="text_193">
+   <g id="text_195">
     <!-- בגנ -->
-    <g transform="translate(154.619001 259.726283)scale(0.1 -0.1)">
+    <g transform="translate(164.583587 247.597407)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="45.507812" xlink:href="#TimesNewRomanPSMT-1490"/>
      <use x="79.052734" xlink:href="#TimesNewRomanPSMT-1504"/>
     </g>
    </g>
-   <g id="text_194">
+   <g id="text_196">
     <!-- םלש -->
-    <g transform="translate(144.012065 362.001044)scale(0.1 -0.1)">
+    <g transform="translate(150.686457 346.462574)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1501"/>
      <use x="50.732422" xlink:href="#TimesNewRomanPSMT-1500"/>
      <use x="93.896484" xlink:href="#TimesNewRomanPSMT-1513"/>
     </g>
    </g>
-   <g id="text_195">
+   <g id="text_197">
     <!-- לכיה -->
-    <g transform="translate(150.020901 248.457387)scale(0.1 -0.1)">
+    <g transform="translate(164.236528 239.725203)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1500"/>
      <use x="43.164062" xlink:href="#TimesNewRomanPSMT-1499"/>
      <use x="86.425781" xlink:href="#TimesNewRomanPSMT-1497"/>
      <use x="113.085938" xlink:href="#TimesNewRomanPSMT-1492"/>
     </g>
    </g>
-   <g id="text_196">
+   <g id="text_198">
     <!-- תחפשמ -->
-    <g transform="translate(173.311309 295.547184)scale(0.1 -0.1)">
+    <g transform="translate(185.728085 283.497653)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1514"/>
      <use x="50" xlink:href="#TimesNewRomanPSMT-1495"/>
      <use x="97.65625" xlink:href="#TimesNewRomanPSMT-1508"/>
@@ -2717,50 +2752,50 @@ z
      <use x="202.734375" xlink:href="#TimesNewRomanPSMT-1502"/>
     </g>
    </g>
-   <g id="text_197">
+   <g id="text_199">
     <!-- לקש -->
-    <g transform="translate(166.749169 317.637234)scale(0.1 -0.1)">
+    <g transform="translate(177.947674 300.808807)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1500"/>
      <use x="43.164062" xlink:href="#TimesNewRomanPSMT-1511"/>
      <use x="90.527344" xlink:href="#TimesNewRomanPSMT-1513"/>
     </g>
    </g>
-   <g id="text_198">
+   <g id="text_200">
     <!-- הצק -->
-    <g transform="translate(156.013253 281.988864)scale(0.1 -0.1)">
+    <g transform="translate(168.704931 269.655949)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1510"/>
      <use x="93.115234" xlink:href="#TimesNewRomanPSMT-1511"/>
     </g>
    </g>
-   <g id="text_199">
+   <g id="text_201">
     <!-- רבע -->
-    <g transform="translate(151.884744 254.017915)scale(0.1 -0.1)">
+    <g transform="translate(163.890229 243.04015)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="46.875" xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="92.382812" xlink:href="#TimesNewRomanPSMT-1506"/>
     </g>
    </g>
-   <g id="text_200">
+   <g id="text_202">
     <!-- דימת -->
-    <g transform="translate(165.026155 321.151351)scale(0.1 -0.1)">
+    <g transform="translate(175.699003 309.294729)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1491"/>
      <use x="41.894531" xlink:href="#TimesNewRomanPSMT-1497"/>
      <use x="68.554688" xlink:href="#TimesNewRomanPSMT-1502"/>
      <use x="117.089844" xlink:href="#TimesNewRomanPSMT-1514"/>
     </g>
    </g>
-   <g id="text_201">
+   <g id="text_203">
     <!-- רקש -->
-    <g transform="translate(162.038318 323.513664)scale(0.1 -0.1)">
+    <g transform="translate(172.801199 308.285702)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="46.875" xlink:href="#TimesNewRomanPSMT-1511"/>
      <use x="94.238281" xlink:href="#TimesNewRomanPSMT-1513"/>
     </g>
    </g>
-   <g id="text_202">
+   <g id="text_204">
     <!-- תוכלמ -->
-    <g transform="translate(167.432169 295.539639)scale(0.1 -0.1)">
+    <g transform="translate(179.223808 283.947681)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1514"/>
      <use x="50" xlink:href="#TimesNewRomanPSMT-1493"/>
      <use x="77.880859" xlink:href="#TimesNewRomanPSMT-1499"/>
@@ -2768,41 +2803,41 @@ z
      <use x="164.306641" xlink:href="#TimesNewRomanPSMT-1502"/>
     </g>
    </g>
-   <g id="text_203">
+   <g id="text_205">
     <!-- לעמ -->
-    <g transform="translate(164.975137 311.028423)scale(0.1 -0.1)">
+    <g transform="translate(176.158901 297.718232)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1500"/>
      <use x="43.164062" xlink:href="#TimesNewRomanPSMT-1506"/>
      <use x="88.574219" xlink:href="#TimesNewRomanPSMT-1502"/>
     </g>
    </g>
-   <g id="text_204">
+   <g id="text_206">
     <!-- םדק -->
-    <g transform="translate(163.830703 291.131772)scale(0.1 -0.1)">
+    <g transform="translate(173.047678 276.611633)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1501"/>
      <use x="50.732422" xlink:href="#TimesNewRomanPSMT-1491"/>
      <use x="92.626953" xlink:href="#TimesNewRomanPSMT-1511"/>
     </g>
    </g>
-   <g id="text_205">
+   <g id="text_207">
     <!-- רפסמ -->
-    <g transform="translate(168.555611 321.273225)scale(0.1 -0.1)">
+    <g transform="translate(179.372141 306.154888)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1512"/>
      <use x="46.875" xlink:href="#TimesNewRomanPSMT-1508"/>
      <use x="90.917969" xlink:href="#TimesNewRomanPSMT-1505"/>
      <use x="138.427734" xlink:href="#TimesNewRomanPSMT-1502"/>
     </g>
    </g>
-   <g id="text_206">
+   <g id="text_208">
     <!-- בר -->
-    <g transform="translate(169.962258 310.470812)scale(0.1 -0.1)">
+    <g transform="translate(180.880393 296.695514)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1489"/>
      <use x="45.507812" xlink:href="#TimesNewRomanPSMT-1512"/>
     </g>
    </g>
-   <g id="text_207">
+   <g id="text_209">
     <!-- האפ -->
-    <g transform="translate(163.086705 306.651184)scale(0.1 -0.1)">
+    <g transform="translate(174.457727 294.368505)scale(0.1 -0.1)">
      <use xlink:href="#TimesNewRomanPSMT-1492"/>
      <use x="47.119141" xlink:href="#TimesNewRomanPSMT-1488"/>
      <use x="95.263672" xlink:href="#TimesNewRomanPSMT-1508"/>
@@ -2811,8 +2846,8 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pf36febb352">
-   <rect height="434.88" width="446.4" x="28.942188" y="7.2"/>
+  <clipPath id="pe76be7b0c3">
+   <rect height="434.88" width="446.4" x="28.942188" y="9.887114"/>
   </clipPath>
  </defs>
 </svg>
